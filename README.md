@@ -10,21 +10,11 @@
 
 ## Index
 
-1. [How to use this guide](#1-how-to-use-this-guide)
-2. [Introduction](#2-introduction)
-3. [Feedback](#3-feedback)
-4. [Installation links](#4-installation-links)
-5. [My README](#5-my-readme)
-6. [Project](#6-project)
-7. [Technologies](#7-technologies)
-8. [Core Challenges](#8-core-challenges)
-9. [Schedule](#9-schedule)
-10. [Recordings](#10-recordings)
-11. [Tech leads githubs](#11-tech-leads-githubs)
-12. [Help Resources](#12-recommended-resources)
-13. [More Help](#13-help)
+1. Technologies
+2. Core Challenges
 
-## 7. Technologies
+
+## 1. Technologies
 
 - Week 1 : [Introduction to programming & Javascript](src/technologies/2022/week01)
 - Week 2 : [Javascript](src/technologies/2022/week02)
@@ -41,7 +31,7 @@
 - Week 13 : [Pause Day & S.O.L.I.D](src/technologies/2022/week13)
 - Week 14 : [End Of Month](src/technologies/2022/week14)
 
-## 8. Core Challenges
+## 2. Core Challenges
 
-You can find your Core Challenges [here](https://corecode.notion.site/Core-Code-Boost-e30bf6e94690457d933004552f74970b). These challenges will be unlocked week by week.
+
 
