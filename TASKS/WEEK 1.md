@@ -1,9 +1,5 @@
 <h1 align="center">Introduction to programming & Javascript - Week 1</h1>
 
-## Week goal 🏁
-
-<p>Learn about the basics of programming and start knowing Javascript</p>
-
 ## Week challenges (Tuesday) 💻
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
@@ -40,13 +36,54 @@ You have been selected to develop the algorithm that will be used to convert dol
 6. END 
 ```
 
-
-5. Learn about [High and Low level languages](https://www.youtube.com/watch?v=bUWCD45qniA)
-
 ## Week challenges (Wednesday) 💻
 
 1. [Your date of birth in the matrix?](./exercises/e01/desc) exercise
-2. [MIPS](./exercises/e02/desc) exercise
+
+## Description
+
+Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
+
+## Exercise development:
+
+My birthday date is 18/01/2002 
+
+18012002 in binary code is : 
+
+
+|    OPERATIONS  |    RESULTS     |  RESIDUE     |
+| :---           |     :---:      |          ---:|
+|  18012002 / 2  | 9.006.001      |  0           |
+| 9.006.001 / 2  | 4.503.000,5    |  1           |
+| 4.503.000 / 2  | 2.251.500      |  0           |
+| 2.251.500 / 2  | 1.125.750      |  0           | 
+| 1.125.750 / 2  | 562.875        |  0           |     
+| 562.875 / 2    | 281.437,5      |  1           |
+| 281.437 / 2    | 140.718,5      |  1           |
+| 140.718 / 2    | 70.359         |  0           |
+| 70.359 / 2     | 35.179,5       |  1           |
+| 35.179 / 2     | 17.589,5       |  1           |
+| 17.589 / 2     | 8.794,5        |  1           |
+| 8.794 / 2      | 4.397          |  0           |
+| 4.397 / 2      | 2.198,5        |  1           |
+| 2.198 / 2      | 1.099          |  0           |
+| 1.099 / 2      | 549,5          |  1           |
+| 549 / 2        | 274,5          |  1           |
+| 274 / 2        | 137            |  0           |
+| 137 / 2        | 68,5           |  1           |
+| 68 / 2         | 34             |  0           | 
+| 34 / 2         | 17             |  0           |
+| 17 / 2         | 8,5            |  1           |
+| 8 / 2          | 4              |  0           |
+| 4 / 2          | 2              |  0           |
+| 2 / 2          | 1              |  0           |
+| 1 / 2          | 0,5            |  1           |
+
+```
+18012002 = 1000100101101011101100010 
+```
+
+3. [MIPS](./exercises/e02/desc) exercise
 
 ## Week challenges (Thursday) 💻
 
