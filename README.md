@@ -6,7 +6,7 @@
 
 </a>
 
-<h1 align="center">Fundamentals Activitys</h1>
+<h1 align="center">Fundamentals Activities</h1>
 
 ## Index
 
@@ -14,7 +14,7 @@
 2. Core Challenges
 
 
-## 1. Technologies
+## 1. Technologies tasks
 
 - Week 1 : [Introduction to programming & Javascript](src/technologies/2022/week01)
 - Week 2 : [Javascript](src/technologies/2022/week02)
