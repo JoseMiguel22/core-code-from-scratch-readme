@@ -46,7 +46,29 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 ## Exercise development:
 
-My birthday date is 18/01/2002 
+My year of birth is: 2002
+
+2002 in binary code is:
+
+|   OPERATIONS  |   RESULTS   |  RESIDUE  |
+|     :---:     |     :---:   |   :---:   |
+| 2002 / 2      | 1.001       |  0        |
+| 1.001 / 2     | 500,5       |  1        |
+| 500/ 2        | 250         |  0        |
+| 250 / 2       | 125         |  0        | 
+| 125 / 2       | 62,5        |  1        |     
+| 62 / 2        | 31          |  0        |
+| 31 / 2        | 15,5        |  1        |
+| 15 / 2        | 7,5         |  1        |
+| 7 / 2         | 3,5         |  1        |
+| 3 / 2         | 1,5         |  1        | 
+| 1 / 2         | 0,5         |  1        | 
+
+```
+2002 = 11111010010
+```
+
+My birthday date is: 18012002 
 
 18012002 in binary code is : 
 
