@@ -90,7 +90,7 @@ My birthday date is 18/01/2002
 Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following
 
 1. Create a program that adds any two given numbers provided by the user
-
+## Exercise development:
 ```assembly
 .data 
 
@@ -132,6 +132,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 ```
 
 2. Create a program that displays your name
+## Exercise development:
 
 ```assembly
 .data 
