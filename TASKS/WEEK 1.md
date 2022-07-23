@@ -14,7 +14,7 @@ The answer is both. In Java, the compiler is in charge of translating the source
 
 Modern JVMs use a technique called Just In Time (JIT) compilation to compile bytecode into native instructions understood by the hardware CPU on the fly at run time.
 
-3. [Pseudocode Currency Converter] exercise
+3. Pseudocode Currency Converter exercise
 
 ## Description of the exercise
 
@@ -105,7 +105,7 @@ My birthday date is: 18012002
 18012002 = 1000100101101011101100010 
 ```
 
-#2. MIPS exercise
+##2. MIPS exercise
 
 ## Description
 
