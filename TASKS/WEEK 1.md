@@ -161,7 +161,7 @@ In this exercise you must use an iterative flow control to be able to print all 
 
 ## Exercise development:
 
-```assembly
+```javascript
 let str = '';
 
 for (let i = 2; i <=100; i+=2) {
@@ -175,7 +175,7 @@ console.log(str);
 ## Description
 
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
-```assembly
+```javascript
 var cond = false;
 
 if ((cond = true)) {
@@ -187,7 +187,7 @@ if ((cond = true)) {
 
 ## Exercise development:
 
-```assembly
+```javascript
 var cond = false;
 
 if (cond == true) {
@@ -202,7 +202,7 @@ if (cond == true) {
 
 You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly
 
-```assembly
+```javascript
 var n = 100;
 
 if (n == 100) {
@@ -219,7 +219,7 @@ if (n % 10 == 0) {
 ```
 
 ## Exercise development:
-```assembly
+```javascript
 var n = 100;
 
 if (n == 100) {
