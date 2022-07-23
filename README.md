@@ -8,12 +8,6 @@
 
 <h1 align="center">Fundamentals Activities</h1>
 
-## Index
-
-1. Technologies
-2. Core Challenges
-
-
 ## 1. Technologies tasks
 
 - Week 1 : [Introduction to programming & Javascript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%201.md)
