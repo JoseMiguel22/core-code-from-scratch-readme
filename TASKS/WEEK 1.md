@@ -20,9 +20,11 @@ Modern JVMs use a technique called Just In Time (JIT) compilation to compile byt
  
 3. [Pseudocode Currency Converter] exercise
 
-## Description
+# Description of the exercise
 
 You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.
+
+# Exercise development:
 
 1. STAR  
 
