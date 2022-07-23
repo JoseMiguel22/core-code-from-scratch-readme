@@ -22,7 +22,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 ## Exercise development:
 
-```
+```assembly
 1. STAR  
 
 2. USD <-- GET 
