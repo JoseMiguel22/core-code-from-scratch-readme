@@ -105,9 +105,9 @@ My birthday date is: 18012002
 18012002 = 1000100101101011101100010 
 ```
 
-2.##MIPS exercise
+2.MIPS exercise
 
-## Description
+# Description
 
 Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following
 
