@@ -26,6 +26,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 ## Exercise development:
 
+```
 1. STAR  
 
 2. USD <-- GET 
@@ -37,7 +38,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 5. PRINT BTC 
 
 6. END 
-
+```
 
 
 5. Learn about [High and Low level languages](https://www.youtube.com/watch?v=bUWCD45qniA)
