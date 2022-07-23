@@ -4,27 +4,6 @@
 
 <p>Learn about the basics of programming and start knowing Javascript</p>
 
-## Week subtopics
-
-- What does programming look like?
-- What really is programming?
-- What is a program?
-- How a computer run a program?
-- Algorithmic operations
-  - Sequential
-  - Conditional
-  - Iterative
-- Basic elements of programming
-  - Instruction set
-  - Variables
-  - Output
-- Wat is javascript?
-- What is an interpreted language?
-- HTMl basics
-- Javascript Hello World
-- Variables in Javascript
-- Basic HTML structure
-
 ## Week challenges (Tuesday) 💻
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
@@ -39,8 +18,27 @@ The answer is both. In Java, the compiler is in charge of translating the source
 
 Modern JVMs use a technique called Just In Time (JIT) compilation to compile bytecode into native instructions understood by the hardware CPU on the fly at run time.
  
-3. [Pseudocode Currency Converter](./exercises/e00/desc) exercise
-4. Learn about [High and Low level languages](https://www.youtube.com/watch?v=bUWCD45qniA)
+3. [Pseudocode Currency Converter] exercise
+
+## Description
+
+You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.
+
+1. STAR  
+
+2. USD <-- GET 
+
+3. BTCPrice <-- GET 
+
+4. BTC <-- USD * BTCPrice  
+
+5. PRINT BTC 
+
+6. END 
+
+
+
+5. Learn about [High and Low level languages](https://www.youtube.com/watch?v=bUWCD45qniA)
 
 ## Week challenges (Wednesday) 💻
 
