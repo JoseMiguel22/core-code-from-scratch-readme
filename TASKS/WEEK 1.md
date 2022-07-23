@@ -38,7 +38,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 ## Week challenges (Wednesday) 💻
 
-1. [Your date of birth in the matrix?](./exercises/e01/desc) exercise
+1. [Your date of birth in the matrix?] exercise
 
 ## Description
 
@@ -83,7 +83,7 @@ My birthday date is 18/01/2002
 18012002 = 1000100101101011101100010 
 ```
 
-3. [MIPS] exercise
+2. [MIPS] exercise
 
 ## Description
 
