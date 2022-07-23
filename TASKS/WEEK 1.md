@@ -214,7 +214,7 @@ The mistake is in
 ```javascript
 if ((cond = true))
 ```
-the double parenthesis is eliminated and a double ```javascript ==  ```is added to indicate that the variable must be equal to the condition that we are posing
+the double parenthesis is eliminated and a double ```== ```is added to indicate that the variable must be equal to the condition that we are posing
 
 ```javascript
 
