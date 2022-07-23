@@ -38,7 +38,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 ## Week challenges (Wednesday) 💻
 
-1. [Your date of birth in the matrix?] exercise
+1. Your date of birth in the matrix? exercise
 
 ## Description
 
@@ -105,7 +105,7 @@ My birthday date is: 18012002
 18012002 = 1000100101101011101100010 
 ```
 
-2. [MIPS] exercise
+2. MIPS exercise
 
 ## Description
 
@@ -193,7 +193,7 @@ for (let i = 2; i <=100; i+=2) {
 console.log(str);
 ```
 
-2. [Bad Code]exercise
+2. Bad Code exercise
 ## Description
 
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
@@ -218,7 +218,7 @@ if (cond == true) {
   console.log('The cond variable is false');
 }
 ```
-3. [Bad Code 2] exercise
+3. Bad Code 2 exercise
 
 ## Description
 
