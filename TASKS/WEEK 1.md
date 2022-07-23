@@ -193,7 +193,7 @@ for (let i = 2; i <=100; i+=2) {
 console.log(str);
 ```
 
-2. [Bad Code](./exercises/e04/desc) exercise
+2. [Bad Code]exercise
 ## Description
 
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
@@ -218,7 +218,7 @@ if (cond == true) {
   console.log('The cond variable is false');
 }
 ```
-3. [Bad Code 2](./exercises/e05/desc) exercise
+3. [Bad Code 2] exercise
 
 ## Description
 
