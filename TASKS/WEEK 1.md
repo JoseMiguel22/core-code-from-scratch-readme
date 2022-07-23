@@ -176,7 +176,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 ## Week challenges (Thursday) 💻
 
-1. [Print special numbers] exercise
+1. Print special numbers exercise
 
 ### Description
 
@@ -210,7 +210,14 @@ if ((cond = true)) {
 
 ### Exercise development:
 
+The mistake is in  
 ```javascript
+if ((cond = true))
+```
+the double parenthesis is eliminated and a double ```javascript ==  ```is added to indicate that the variable must be equal to the condition that we are posing
+
+```javascript
+
 var cond = false;
 
 if (cond == true) {
