@@ -16,11 +16,11 @@ Modern JVMs use a technique called Just In Time (JIT) compilation to compile byt
 
 3. Pseudocode Currency Converter exercise
 
-## Description of the exercise
+### Description of the exercise
 
 You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.
 
-## Exercise development:
+### Exercise development:
 
 ```assembly
 1. STAR  
@@ -40,11 +40,11 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 1. Your date of birth in the matrix? exercise
 
-## Description
+### Description
 
 Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 
-## Exercise development:
+### Exercise development:
 
 My year of birth is: 2002
 
@@ -105,14 +105,15 @@ My birthday date is: 18012002
 18012002 = 1000100101101011101100010 
 ```
 
-2.MIPS exercise
+2. MIPS exercise
 
 ### Description
 
 Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following
 
 1. Create a program that adds any two given numbers provided by the user
-## Exercise development:
+
+### Exercise development:
 ```assembly
 .data 
 
@@ -154,7 +155,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 ```
 
 2. Create a program that displays your name
-## Exercise development:
+### Exercise development:
 
 ```assembly
 .data 
@@ -177,11 +178,11 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 1. [Print special numbers] exercise
 
-## Description
+### Description
 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
-## Exercise development:
+### Exercise development:
 
 ```javascript
 let str = '';
@@ -194,7 +195,7 @@ console.log(str);
 ```
 
 2. Bad Code exercise
-## Description
+### Description
 
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
 ```javascript
@@ -207,7 +208,7 @@ if ((cond = true)) {
 }
 ```
 
-## Exercise development:
+### Exercise development:
 
 ```javascript
 var cond = false;
@@ -220,7 +221,7 @@ if (cond == true) {
 ```
 3. Bad Code 2 exercise
 
-## Description
+### Description
 
 You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly
 
@@ -240,7 +241,7 @@ if (n % 10 == 0) {
 }
 ```
 
-## Exercise development:
+### Exercise development:
 ```javascript
 var n = 100;
 
