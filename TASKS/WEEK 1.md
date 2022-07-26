@@ -113,7 +113,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 1. Create a program that adds any two given numbers provided by the user
 
-### Exercise development:
+### Resolution of the exercise:
 ```assembly
 .data 
 
@@ -155,7 +155,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 ```
 
 2. Create a program that displays your name
-### Exercise development:
+### Resolution of the exercise:
 
 ```assembly
 .data 
@@ -182,7 +182,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
-### Exercise development:
+### Resolution of the exercise:
 
 ```javascript
 let str = '';
@@ -208,7 +208,7 @@ if ((cond = true)) {
 }
 ```
 
-### Exercise development:
+### Resolution of the exercise:
 
 The error is in  
 ```javascript
@@ -248,7 +248,7 @@ if (n % 10 == 0) {
 }
 ```
 
-### Exercise development:
+### Resolution of the exercise:
 ```javascript
 var n = 100;
 
