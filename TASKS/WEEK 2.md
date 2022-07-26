@@ -4,7 +4,7 @@
 
 ## Week challenges (Monday) 💻
 
-- [ ] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
+- [x] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
 2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
 3. Read about: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 4. Read about: [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
