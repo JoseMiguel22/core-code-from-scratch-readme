@@ -20,7 +20,7 @@ Modern JVMs use a technique called Just In Time (JIT) compilation to compile byt
 
 You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.
 
-### Exercise development:
+###Resolution of the exercise:
 
 ```assembly
 1. STAR  
@@ -44,7 +44,7 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 
-### Exercise development:
+### Resolution of the exercise:
 
 My year of birth is: 2002
 
