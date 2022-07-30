@@ -11,7 +11,7 @@
 ## 1. Technologies tasks
 
 - Week 1 : [Introduction to programming & Javascript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%201.md)
-- Week 2 : [Javascript](src/technologies/2022/week02)
+- Week 2 : [Javascript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%202.md)
 - Week 3 : [Javascript](src/technologies/2022/week03)
 - Week 4 : [Javascript & Pause Day](src/technologies/2022/week04)
 - Week 5 : [End Of Month & Typescript](src/technologies/2022/week05)
