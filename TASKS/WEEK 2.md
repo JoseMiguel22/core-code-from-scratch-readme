@@ -59,8 +59,8 @@ function addBinary(a,b) {
 ```javascript
 function finalGrade (exam, projects) {
   return exam > 90 || projects > 10 ? 100
-  : exam > 75 && projects > 4 ? 90
-  : exam > 50 && projects > 1 ? 75
+  : exam > 75 && projects >= 5 ? 90
+  : exam > 50 && projects >= 2 ? 75
   : 0 
 }
 ```
