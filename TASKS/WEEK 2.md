@@ -40,7 +40,7 @@ return suma;
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 2. [Char From ASCII Value](./exercises/e02/desc) exercise
-### Solutio
+### Solution
 ```javascript
 function getChar(c){
   return String.fromCharCode(c);
