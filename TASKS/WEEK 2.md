@@ -23,7 +23,7 @@ function multiply(a, b){
 }
 ```
 
-4. [ASCII Total](./exercises/e01/desc) exercise
+3. [ASCII Total](./exercises/e01/desc) exercise
 ### Solution
 ```javascript
 function uniTotal (string) {
