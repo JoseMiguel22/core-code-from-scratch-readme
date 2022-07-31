@@ -24,6 +24,17 @@ function multiply(a, b){
 ```
 
 4. [ASCII Total](./exercises/e01/desc) exercise
+### solution
+```javascript
+function uniTotal (string) {
+  let longitud = string.length;
+  let suma= 0;
+  for (let i = 0; i<longitud; i++){
+    suma = suma + string.charCodeAt(i);
+  }
+return suma;
+}
+```
 
 ## Week challenges (Wednesday) 💻
 
