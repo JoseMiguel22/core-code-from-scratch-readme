@@ -46,9 +46,24 @@ function getChar(c){
   return String.fromCharCode(c);
 }
 ```
-4. [Binary Addition](./exercises/e03/desc) exercise
-5. [Student's Final Grade](./exercises/e04/desc) exercise
-
+3. [Binary Addition](./exercises/e03/desc) exercise
+### Solution
+```javascript
+function addBinary(a,b) {
+  const suma = a + b;
+  return suma.toString(2);
+}
+```
+4. [Student's Final Grade](./exercises/e04/desc) exercise
+### Solution
+```javascript
+function finalGrade (exam, projects) {
+  return exam > 90 || projects > 10 ? 100
+  : exam > 75 && projects > 4 ? 90
+  : exam > 50 && projects > 1 ? 75
+  : 0 
+}
+```
 
 ## Week challenges (Thursday) 💻
 
