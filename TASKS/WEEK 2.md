@@ -40,8 +40,14 @@ return suma;
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 2. [Char From ASCII Value](./exercises/e02/desc) exercise
-3. [Binary Addition](./exercises/e03/desc) exercise
-4. [Student's Final Grade](./exercises/e04/desc) exercise
+### Solutio
+```javascript
+function getChar(c){
+  return String.fromCharCode(c);
+}
+```
+4. [Binary Addition](./exercises/e03/desc) exercise
+5. [Student's Final Grade](./exercises/e04/desc) exercise
 
 
 ## Week challenges (Thursday) 💻
