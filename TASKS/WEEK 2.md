@@ -16,7 +16,7 @@
 1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
 2. [Multiply](./exercises/e00/desc) exercise
 
-### solution
+### Solution
 ```javascript
 function multiply(a, b){
   return a * b
@@ -24,7 +24,7 @@ function multiply(a, b){
 ```
 
 4. [ASCII Total](./exercises/e01/desc) exercise
-### solution
+### Solution
 ```javascript
 function uniTotal (string) {
   let longitud = string.length;
