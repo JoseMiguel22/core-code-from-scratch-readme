@@ -69,10 +69,51 @@ function finalGrade (exam, projects) {
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 2. [Remove All Exclamation Marks From The End Of Sentence](./exercises/e09/desc) exercise
+### Solution
+```javascript
+function remove (string) {  
+  return string.replace(/!+$/, "");
+}
+```
 3. [Vowel Remover](./exercises/e10/desc) exercise
-4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
-5. [Persistent Bugger](./exercises/e12/desc) exercise
+### Solution
+```javascript
+function shortcut (string) {
+  return string.replace(/[aeiou]/g, "");
+}
+```
 
+4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
+### Solution
+```javascript
+const rps = (p1, p2) => {
+ if(p1 === "scissors" && p2 === "paper") {
+ return "Player 1 won!"
+ }
+ if(p1 === "paper" && p2 === "rock") {
+ return "Player 1 won!"
+ }
+ if(p1 === "rock" && p2 === "scissors" ) {
+ return "Player 1 won!"
+ }
+ if(p2 === "scissors" && p1 === "paper") {
+ return "Player 2 won!"
+ }
+ if(p2 === "paper" && p1 === "rock") {
+ return "Player 2 won!"
+ }
+ if(p2 === "rock" && p1 === "scissors" ) {
+ return "Player 2 won!"
+ }
+ if (p1===p2)  return "Draw!"   
+};
+```
+
+5. [Persistent Bugger](./exercises/e12/desc) exercise
+### Solution
+```javascript
+
+```
 ## Extra (It is not mandatory for the Readme) ⭐
 
 1. [Holiday VIII - Duty Free](./exercises/e05/desc) exercise
