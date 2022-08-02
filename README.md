@@ -38,7 +38,7 @@
 ![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)
 
 - Week 10 : [End Of Month & React](src/technologies/2022/week10)
-![react_original_wordmark_logo_icon_146375](https://user-images.githubusercontent.com/108826299/182275396-7d0e19db-2d82-40ff-85dd-58c93dd25013.png)
+![physics](https://user-images.githubusercontent.com/108826299/182278215-97413057-a1c3-413d-8ab1-9e61a2286e39.png)
 
 - Week 11 : [Node](src/technologies/2022/week11)
 ![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)
