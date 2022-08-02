@@ -41,10 +41,10 @@
 ![react_original_wordmark_logo_icon_146375](https://user-images.githubusercontent.com/108826299/182275396-7d0e19db-2d82-40ff-85dd-58c93dd25013.png)
 
 - Week 11 : [Node](src/technologies/2022/week11)
-![file_type_node_icon_130301](https://user-images.githubusercontent.com/108826299/182277199-9ac853b5-ecc8-418a-ba39-0ea0459e94a3.png)
+![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)
 
 - Week 12 : [Node / Database](src/technologies/2022/week12)
-![file_type_node_icon_130301](https://user-images.githubusercontent.com/108826299/182277199-9ac853b5-ecc8-418a-ba39-0ea0459e94a3.png)
+![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)
 
 - Week 13 : [Pause Day & S.O.L.I.D](src/technologies/2022/week13)
 - Week 14 : [End Of Month](src/technologies/2022/week14)
