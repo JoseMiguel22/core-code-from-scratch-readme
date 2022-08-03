@@ -113,10 +113,11 @@ const rps = (p1, p2) => {
 ### Solution
 ```javascript
 function persistence(num) {
-   
+  
   let counter = 0; 
   let digits = num.toString().split(""); 
 
+  
   while (digits.length > 1){ 
 
     let results = 1; 
@@ -132,6 +133,9 @@ function persistence(num) {
     counter = counter + 1; 
 
   } 
+  
+  return counter; 
+} 
 ```
 ## Extra (It is not mandatory for the Readme) ⭐
 
