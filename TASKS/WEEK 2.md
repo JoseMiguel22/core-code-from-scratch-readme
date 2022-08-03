@@ -18,7 +18,7 @@ code;
 ```
 ### if...else :
 The else statement is used to specify a block of code that will be executed if the condition of the if statement is false.
-syntax:
+Syntax:
 ```javascript
 if(condition){
 code to execute if condition is true;
@@ -43,7 +43,8 @@ code block 3;
 
 4. Read about: for
 ### for
-Where the parameter that is subjected to the condition room can change its value, the syntax is as follows:
+The for loop is used to repeat one or more statements a specified number of times. Of all the loops, the For is used when we know for sure the number of times we want it to be executed. Syntax:
+
 ```javascript
 for(statement 1; statement 2; statement 3){
 block of code to execute;
