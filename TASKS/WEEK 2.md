@@ -4,8 +4,8 @@
 
 ## Week challenges (Monday) 💻
 
- - [x] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
-- [x] 2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
+### 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
+### 2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
 
 ### 3. Read about: if...else
 
@@ -84,7 +84,7 @@ code block;
 
 ## Week challenges (Tuesday) 💻
 
-1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
+### 1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
 ### 2. Multiply exercise
 
 ### Solution
@@ -109,7 +109,7 @@ return suma;
 
 ## Week challenges (Wednesday) 💻
 
-1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
+### 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 ### 2. Char From ASCII Value exercise
 ### Solution
 ```javascript
@@ -139,7 +139,7 @@ function finalGrade (exam, projects) {
 
 ## Week challenges (Thursday) 💻
 
-1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
+### 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 ### 2. Remove All Exclamation Marks From The End Of Sentence exercise
 ### Solution
 ```javascript
