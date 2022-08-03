@@ -4,19 +4,21 @@
 
 ## Week challenges (Monday) 💻
 
-- [x] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
+ - [x] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
 - [x] 2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
 
-3. Read about: if...else
+### 3. Read about: if...else
 
-### if:
+#### if:
+ 
 The if statement is used in situations where a certain bit of code only needs to be executed if certain conditions are met. Its syntax is as follows
 ```javascript
 if(condition){
 code;
 }
 ```
-### if...else :
+#### if...else :
+ 
 The else statement is used to specify a block of code that will be executed if the condition of the if statement is false.
 Syntax:
 ```javascript
@@ -27,7 +29,8 @@ else {
 code to execute if condition is false;
 }
 ```
-### if...else if :
+ #### if...else if :
+ 
 The if...else if is used to check a different condition if the first condition fails. Syntax:
 ```javascript
 if(condition 1){
@@ -41,8 +44,8 @@ code block 3;
 }
 ```
 
-4. Read about: for
-### for
+### 4. Read about: for
+#### for
 The for loop is used to repeat one or more statements a specified number of times. Of all the loops, the For is used when we know for sure the number of times we want it to be executed. Syntax:
 
 ```javascript
@@ -59,8 +62,8 @@ This statement is the conditional check that is executed before each iteration.
 statement 3:
 This statement is executed at the end of each iteration of the loop.
 
-5. Read about: while
-### while
+### 5. Read about: while
+#### while
 The While Loop Looks for a condition at the beginning of the code block and only executes the code if the condition is true. Syntax:
 ```javascript
 while(condition){
@@ -68,8 +71,8 @@ code block;
 }
 ```
 
-6. Read about: functions
-### funtion 
+### 6. Read about: functions
+#### funtion 
 A function is a piece of code designed to perform a particular task or to be reused over and over again. Functions help reduce code length and improve code recoverability.
 
 The 'function' declaration is used to define a function, followed by a name for the function, which is then followed by a set of parentheses. syntax:
@@ -82,7 +85,7 @@ code block;
 ## Week challenges (Tuesday) 💻
 
 1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
-2. [Multiply](./exercises/e00/desc) exercise
+### 2. Multiply exercise
 
 ### Solution
 ```javascript
@@ -91,7 +94,7 @@ function multiply(a, b){
 }
 ```
 
-3. [ASCII Total](./exercises/e01/desc) exercise
+### 3. ASCII Total exercise
 ### Solution
 ```javascript
 function uniTotal (string) {
@@ -107,14 +110,14 @@ return suma;
 ## Week challenges (Wednesday) 💻
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
-2. [Char From ASCII Value](./exercises/e02/desc) exercise
+### 2. Char From ASCII Value exercise
 ### Solution
 ```javascript
 function getChar(c){
   return String.fromCharCode(c);
 }
 ```
-3. [Binary Addition](./exercises/e03/desc) exercise
+### 3. Binary Addition exercise
 ### Solution
 ```javascript
 function addBinary(a,b) {
@@ -122,7 +125,7 @@ function addBinary(a,b) {
   return suma.toString(2);
 }
 ```
-4. [Student's Final Grade](./exercises/e04/desc) exercise
+### 4. Student's Final Grad exercise
 ### Solution
 ```javascript
 function finalGrade (exam, projects) {
@@ -137,14 +140,14 @@ function finalGrade (exam, projects) {
 ## Week challenges (Thursday) 💻
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
-2. [Remove All Exclamation Marks From The End Of Sentence](./exercises/e09/desc) exercise
+### 2. Remove All Exclamation Marks From The End Of Sentence exercise
 ### Solution
 ```javascript
 function remove (string) {  
   return string.replace(/!+$/, "");
 }
 ```
-3. [Vowel Remover](./exercises/e10/desc) exercise
+### 3. Vowel Remover exercise
 ### Solution
 ```javascript
 function shortcut (string) {
@@ -152,7 +155,7 @@ function shortcut (string) {
 }
 ```
 
-4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
+### 4. Rock Paper Scissors! exercise
 ### Solution
 ```javascript
 const rps = (p1, p2) => {
@@ -178,7 +181,7 @@ const rps = (p1, p2) => {
 };
 ```
 
-5. [Persistent Bugger](./exercises/e12/desc) exercise
+### 5. Persistent Bugger exercise
 ### Solution
 ```javascript
 function persistence(num) {
