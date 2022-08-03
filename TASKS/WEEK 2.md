@@ -112,7 +112,26 @@ const rps = (p1, p2) => {
 5. [Persistent Bugger](./exercises/e12/desc) exercise
 ### Solution
 ```javascript
+function persistence(num) {
+   
+  let counter = 0; 
+  let digits = num.toString().split(""); 
 
+  while (digits.length > 1){ 
+
+    let results = 1; 
+
+    for(let i = 0; i < digits.length; i++){ 
+
+      results = results * digits[i]; 
+
+    } 
+
+    digits = results.toString().split(""); 
+
+    counter = counter + 1; 
+
+  } 
 ```
 ## Extra (It is not mandatory for the Readme) ⭐
 
