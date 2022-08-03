@@ -5,11 +5,78 @@
 ## Week challenges (Monday) 💻
 
 - [x] 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
-2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
-3. Read about: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-4. Read about: [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-5. Read about: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-6. Read about: [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+- [x] 2. Create an account in Codewars, follow [this instructions](./_create_account_codewars/)
+
+3. Read about: if...else
+
+### if:
+The if statement is used in situations where a certain bit of code only needs to be executed if certain conditions are met. Its syntax is as follows
+```javascript
+if(condition){
+code;
+}
+```
+### if...else :
+The else statement is used to specify a block of code that will be executed if the condition of the if statement is false.
+syntax:
+```javascript
+if(condition){
+code to execute if condition is true;
+}
+else {
+code to execute if condition is false;
+}
+```
+### if...else if :
+The if...else if is used to check a different condition if the first condition fails. Syntax:
+```javascript
+if(condition 1){
+code block 1;
+}
+else if(condition 2){
+code block 2
+}
+else {
+code block 3;
+}
+```
+
+4. Read about: for
+### for
+Where the parameter that is subjected to the condition room can change its value, the syntax is as follows:
+```javascript
+for(statement 1; statement 2; statement 3){
+block of code to execute;
+}
+```
+statement 1:
+This statement is executed before loop start (just once)
+
+statement 2:
+This statement is the conditional check that is executed before each iteration.
+
+statement 3:
+This statement is executed at the end of each iteration of the loop.
+
+5. Read about: while
+### while
+The While Loop Looks for a condition at the beginning of the code block and only executes the code if the condition is true. Syntax:
+```javascript
+while(condition){
+code block;
+}
+```
+
+6. Read about: functions
+### funtion 
+A function is a piece of code designed to perform a particular task or to be reused over and over again. Functions help reduce code length and improve code recoverability.
+
+The 'function' declaration is used to define a function, followed by a name for the function, which is then followed by a set of parentheses. syntax:
+```javascript
+function name(){
+code block;
+}
+```
 
 ## Week challenges (Tuesday) 💻
 
