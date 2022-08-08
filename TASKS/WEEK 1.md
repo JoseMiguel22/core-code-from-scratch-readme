@@ -35,6 +35,20 @@ You have been selected to develop the algorithm that will be used to convert dol
 
 6. END 
 ```
+4. Learn about High and Low level languages
+
+High-level languages: 
+
+is one that is user-oriented in that it has been designed to make it straightforward for a programmer to convert an algorithm into program code.
+They are languages independent of the architecture of the computer. So, in principle, a program written in a high-level language can be migrated from one machine to another without any problem.
+
+These languages allow the programmer to completely forget about the inner workings of the machine/s for which they are designing the program. They just need a translator who understands the source code as well as the characteristics of the machine.
+
+Examples of high level languages we have: Java, C#, Python, JavaScript.
+
+Low-level languages: 
+
+is machine-oriented. Low-level programs are expressed in terms of the machine operations that must be performed to carry out a task. This makes writing programs more difficult, as the algorithm must be specified in terms of the capabilities and specifications of the processor. Low-level languages are named for the processor (or processor family) that they are designed for, and are often referred to as assembly language or machine code.
 
 ## Week challenges (Wednesday) 💻
 
