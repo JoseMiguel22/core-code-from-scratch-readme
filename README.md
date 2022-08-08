@@ -15,7 +15,7 @@
 |--|--|
 |- Week 2 : [Javascript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%202.md)|![file_type_js_official_icon_130509 (2)](https://user-images.githubusercontent.com/108826299/182274886-d2213d13-1521-4df7-8ba6-5e428b8cbfe3.png)|
 |- Week 3 : [Javascript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%203.md)|![file_type_js_official_icon_130509 (2)](https://user-images.githubusercontent.com/108826299/182274886-d2213d13-1521-4df7-8ba6-5e428b8cbfe3.png)|
-|- Week 4 : [Javascript & Pause Day](src/technologies/2022/week04)|![file_type_js_official_icon_130509 (2)](https://user-images.githubusercontent.com/108826299/182274886-d2213d13-1521-4df7-8ba6-5e428b8cbfe3.png)|
+|- Week 4 : [Javascript & Pause Day](src/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%204.md)|![file_type_js_official_icon_130509 (2)](https://user-images.githubusercontent.com/108826299/182274886-d2213d13-1521-4df7-8ba6-5e428b8cbfe3.png)|
 |- Week 5 : [End Of Month & Typescript](src/technologies/2022/week05) |![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
 |- Week 6 : [Typescript](src/technologies/2022/week06)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
 |- Week 7 : [Typescript](src/technologies/2022/week07)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
