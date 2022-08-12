@@ -20,6 +20,7 @@
 ## Week challenges (Monday) 💻
 
 1. Who Likes It? exercise
+
 `Solution`
 ```javascript
 function likes(names) {
@@ -31,6 +32,8 @@ function likes(names) {
 };    
 ```
 2. Bit Counting exercise
+
+`Solution`
 ```javascript
 var countBits = function(n){
 return n.toString(2).replace(/0/g; "").length;
@@ -39,12 +42,28 @@ return n.toString(2).replace(/0/g; "").length;
 
 3. Your Order, Please exercise
 
+`Solution`
+```javascript
 
+```
 ## Week challenges (Tuesday) 💻
 
 1. [Simple Pig Latin](./exercises/e03/desc) exercise
-2. [Counting Duplicates](./exercises/e04/desc) exercise
-3. [Decode The Morse Code](./exercises/e05/desc) exercise
+
+`Solution`
+```javascript
+function pigIt(str) {
+  let pMarks = ['!', '¡', '?', '¿', '.', ',', ':', ';'];
+  str = str.split(' ');
+  for (let i = 0; i < str.length; i++) {
+    if (pMarks.indexOf(str[i]) >= 0) continue;
+    str[i] = str[i].slice(1) + str[i].slice(0, 1) + 'ay';
+  }
+  return str.join(' ');
+}
+```
+3. [Counting Duplicates](./exercises/e04/desc) exercise
+4. [Decode The Morse Code](./exercises/e05/desc) exercise
 
 ## Week challenges (Wednesday) 💻
 
