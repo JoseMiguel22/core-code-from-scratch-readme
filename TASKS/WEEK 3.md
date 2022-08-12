@@ -68,7 +68,7 @@ function pigIt(str) {
 ```javascript
 function duplicateCount(text){
    let duplicates = 0;
-  text = text.toLowerCase(); // todo minuscula
+  text = text.toLowerCase(); 
   for(let i = 0; i < text.length; i++) {
     if(text.indexOf(text[i]) !== text.lastIndexOf(text[i])) {
       duplicates++;
