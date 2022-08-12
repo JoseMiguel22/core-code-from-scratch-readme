@@ -20,6 +20,7 @@
 ## Week challenges (Monday) 💻
 
 1. Who Likes It? exercise
+`Solution`
 ```javascript
 function likes(names) {
   if (names.length === 0) return 'no one likes this';
