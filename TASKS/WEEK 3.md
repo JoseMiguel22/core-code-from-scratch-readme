@@ -97,13 +97,25 @@ function duplicateCount(text){
 
 `Solution`
 ```javascript
-
+function toCamelCase(str){
+  return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+}
 ```
 3. Unique In Order exercise
 
 `Solution`
 ```javascript
-
+var uniqueInOrder=function(iterable){
+  let result =[];
+  let ultima;
+  for(let i = 0 ; i < iterable.length ; i++ ){
+    if(iterable[i] !== ultima){
+      ultima = iterable[i];
+      result.push(ultima);
+    }
+  }
+  return result;
+}
 ```
 ## Week challenges (Thursday) 💻
 
