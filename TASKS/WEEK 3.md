@@ -62,17 +62,62 @@ function pigIt(str) {
   return str.join(' ');
 }
 ```
-3. [Counting Duplicates](./exercises/e04/desc) exercise
-4. [Decode The Morse Code](./exercises/e05/desc) exercise
+2. Counting Duplicates exercise
 
+`Solution`
+```javascript
+function duplicateCount(text){
+   let duplicates = 0;
+  text = text.toLowerCase(); // todo minuscula
+  for(let i = 0; i < text.length; i++) {
+    if(text.indexOf(text[i]) !== text.lastIndexOf(text[i])) {
+      duplicates++;
+      text = text.replace(new RegExp(`${text[i]}`, 'g'), '');
+      i = i-1;
+    }
+  }
+  return duplicates;
+}
+```
+5. Decode The Morse Code exercise
+ 
+`Solution`
+```javascript
+
+```
 ## Week challenges (Wednesday) 💻
 
-1. [Valid Parentheses](./exercises/e06/desc) exercise
-2. [Convert String To Camel Case](./exercises/e07/desc) exercise
-3. [Unique In Order](./exercises/e08/desc) exercise
+1. Valid Parentheses exercise
 
+`Solution`
+```javascript
+
+```
+2. Convert String To Camel Case exercise
+
+`Solution`
+```javascript
+
+```
+3. Unique In Order exercise
+
+`Solution`
+```javascript
+
+```
 ## Week challenges (Thursday) 💻
 
-1. [Fold An Array](./exercises/e09/desc) exercise
-2. [Encrypt This!](./exercises/e10/desc) exercise
+1. Fold An Array exercise
+
+`Solution`
+```javascript
+
+```
+
+2. Encrypt This! exercise
+
+`Solution`
+```javascript
+
+```
 3. ✨Complete your 1st [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
