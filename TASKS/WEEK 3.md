@@ -30,6 +30,7 @@ function likes(names) {
   } else if (names.length === 3){return `${names[0]}, ${names[1]} and ${names[2]} like this`;
   } return `${names[0]}, ${names[1]} and ${names.length-2} others like this`;
 };
+``` 
 2. Bit Counting exercise
 
 `Solution`
