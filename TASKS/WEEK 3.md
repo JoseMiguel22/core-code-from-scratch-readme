@@ -130,6 +130,22 @@ var uniqueInOrder=function(iterable){
 
 `Solution`
 ```javascript
+function encrypt(word) {
+  if(word.length === 1) return `${word.charCodeAt(0)}`;
+  const charBackup = word[1];
+  word = word.replace(word[0], word.charCodeAt(0));
+  word = word.replace(charBackup, word[word.length-1]);
+  word = word.replace(/\w$/, charBackup);
+  return word;
+}
 
+var encryptThis = function(text) {
+  const textArray = text.split(' ');
+  let result = '';
+  textArray.forEach((w) => {
+   result = `${result} ${encrypt(w)}`;
+  })
+  return result.trim();.
+  }
 ```
 3. ✨Complete your 1st [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
