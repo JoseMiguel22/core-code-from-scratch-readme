@@ -4,7 +4,7 @@
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
 
-Compiled languages: they are those that require a compiler so that a written program can be executed, the compiler is a program that takes the source code and translates it in such a way that it results in an executable file which is now written in machine language that is, in ones and zeros or better known as binary code.
+ompiled languages they are those that require a compiler so that a written program can be executed, the compiler is a program that takes the source code and translates it in such a way that it results in an executable file which is now written in machine language that is, in ones and zeros or better known as binary code.
 
 Interpreted languages: They are a little simpler, in these languages an interpreter is needed so that the written source code can be executed, what the interpreter does is take the file and go line by line translating that language to the machine code, but at runtime.
 
@@ -54,11 +54,11 @@ is machine-oriented. Low-level programs are expressed in terms of the machine op
 
 1. Your date of birth in the matrix? exercise
 
-### Description
+Description
 
 Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 
-### Resolution of the exercise:
+Solution:
 
 My year of birth is: 2002
 
@@ -123,7 +123,7 @@ My birthday date is: 18012002
 
 ### Description
 
-Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following
+Based on the guide #guide and the examples #examples of the low-level language, create the following
 
 1. Create a program that adds any two given numbers provided by the user
 
@@ -199,13 +199,13 @@ In this exercise you must use an iterative flow control to be able to print all 
 ### Resolution of the exercise:
 
 ```javascript
-let str = '';
+let pares = '';
 
 for (let i = 2; i <=100; i+=2) {
-  str = str + i;
+  pares = pares + " " + i;
 }
 
-console.log(str);
+console.log(pares);
 ```
 
 2. Bad Code exercise
@@ -228,10 +228,8 @@ The error is in the following line:
 ```javascript
 if ((cond = true))
 ```
-The person was assigning and not asking, he should use "==" and not "=". To solve it we must eliminate the double parentheses ```(())``` and add double ```==``` to indicate that the variable must be equal to the condition that we are posing
-
+The person was assigning and not asking, he should use "==" and not "=". To solve it we must eliminate the double parentheses ```(())``` and add double ```==``` to indicate that we are asking
 ```javascript
-
 var cond = false;
 
 if (cond == true) {
@@ -242,7 +240,7 @@ if (cond == true) {
 ```
 3. Bad Code 2 exercise
 
-### Description
+ Description
 
 You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly
 
