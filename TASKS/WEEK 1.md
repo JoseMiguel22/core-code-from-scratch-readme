@@ -58,7 +58,7 @@ Description
 
 Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 
-Solution:
+`Solution`
 
 My year of birth is: 2002
 
@@ -127,7 +127,7 @@ Based on the guide #guide and the examples #examples of the low-level language, 
 
 1. Create a program that adds any two given numbers provided by the user
 
-### Resolution of the exercise:
+`Solution`
 ```assembly
 .data 
 
@@ -169,7 +169,7 @@ Based on the guide #guide and the examples #examples of the low-level language, 
 ```
 
 2. Create a program that displays your name
-### Resolution of the exercise:
+`Solution`
 
 ```assembly
 .data 
@@ -196,7 +196,7 @@ Based on the guide #guide and the examples #examples of the low-level language, 
 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
-### Resolution of the exercise:
+`Solution`
 
 ```javascript
 let pares = '';
@@ -222,7 +222,7 @@ if ((cond = true)) {
 }
 ```
 
-### Resolution of the exercise:
+`Solution`
 
 The error is in the following line:
 ```javascript
@@ -260,7 +260,7 @@ if (n % 10 == 0) {
 }
 ```
 
-### Resolution of the exercise:
+`Solution`
 ```javascript
 var n = 100;
 
@@ -273,6 +273,3 @@ else if (n <= 1000 && n % 10 == 0 && n != 100 ) {
   console.log('Just a regular number');
 }
 ```
-
-
-4. [Follow Git Course](https://www.udacity.com/course/version-control-with-git--ud123)
