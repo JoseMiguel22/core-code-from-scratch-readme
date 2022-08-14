@@ -55,7 +55,8 @@ This statement is the conditional check that is executed before each iteration.
 This statement is executed at the end of each iteration of the loop.
 
 5. Read about: while
-` while:`The While Loop Looks for a condition at the beginning of the code block and only executes the code if the condition is true. Syntax:
+
+`while:`The While Loop Looks for a condition at the beginning of the code block and only executes the code if the condition is true. Syntax:
 ```javascript
 while(condition){
 code block;
@@ -75,7 +76,7 @@ code block;
 ## Week challenges (Tuesday) 💻
 
 1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
-2.  2. Multiply exercise
+2. Multiply exercise
 
 `Solution`
 ```javascript
@@ -85,6 +86,7 @@ function multiply(a, b){
 ```
 
 3. ASCII Total exercise
+
 `Solution`
 ```javascript
 function uniTotal (string) {
@@ -101,6 +103,7 @@ return suma;
 
  1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
  2. Char From ASCII Value exercise
+  
 `Solution`
 ```javascript
 function getChar(c){
@@ -108,6 +111,7 @@ function getChar(c){
 }
 ```
 3. Binary Addition exercise
+ 
 `Solution`
 ```javascript
 function addBinary(a,b) {
@@ -116,6 +120,7 @@ function addBinary(a,b) {
 }
 ```
 4. Student's Final Grad exercise
+
 `Solution`
 
 ```javascript
@@ -139,6 +144,7 @@ function remove (string) {
 }
 ```
 3. Vowel Remover exercise
+
 `Solution`
 ```javascript
 function shortcut (string) {
@@ -146,7 +152,8 @@ function shortcut (string) {
 }
 ```
 
-4. Rock Paper Scissors! exercise
+4. Rock Paper Scissors! exercise3
+
  `Solution`
 ```javascript
 const rps = (p1, p2) => {
@@ -173,6 +180,7 @@ const rps = (p1, p2) => {
 ```
 
  5. Persistent Bugger exercise
+ 
  `Solution`
 ```javascript
 function persistence(num) {
