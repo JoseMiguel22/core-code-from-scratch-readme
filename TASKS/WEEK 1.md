@@ -224,11 +224,11 @@ if ((cond = true)) {
 
 ### Resolution of the exercise:
 
-The error is in  
+The error is in the following line:
 ```javascript
 if ((cond = true))
 ```
-To solve it we must eliminate the double parentheses ```(())``` and add double ```==``` to indicate that the variable must be equal to the condition that we are posing
+The person was assigning and not asking, he should use "==" and not "=". To solve it we must eliminate the double parentheses ```(())``` and add double ```==``` to indicate that the variable must be equal to the condition that we are posing
 
 ```javascript
 
