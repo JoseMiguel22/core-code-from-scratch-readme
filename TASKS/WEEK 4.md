@@ -21,10 +21,67 @@
 
    - [for of](https://www.youtube.com/watch?v=c5a4sNshBA4) video
    - [for of](https://www.w3schools.com/js/js_loop_forof.asp) examples
+  
+  The `for...of` loop was introduced in the later version of JavaScript ES6. `for...of` loop in JavaScript allows you to iterate over iterable objects (arrays, sets, maps, strings, etc.).
+  
+  The syntax of the `for...of` loop is:
+  ```javascript
+  for (variable of iterable){ 
+  //body of for...of
+  }
+  ```
+  `iterable:` an iterable object (array, set, string etc).
+  
+  `variable` items in the iterable.
+  
+  We can read the above code as: for every element in the iterable, run the body of the loop.
+  
+  
 
 3. Follow this JavaScript Array Filter
+
+The `filter()` method returns a new array with all elements that pass the test defined by the given function.
+
+The syntax of the filter() method is:
+ ```javascript
+ arr.filter(callback(element), thisArg)
+ ```
+  
+`callback:` The test function to execute on each array element; returns true if element passes the test, else false. It takes in:
+
+`element:` The current element being passed from the array.
+
+`thisArg (optional):` The value to use as this when executing callback. By default, it is undefined.
+
 4. Follow this JavaScript Array Reduce
+
+The `reduce()` method executes a reducer function on each element of the array and returns a single output value.
+
+The syntax of the reduce() method is:
+ ```javascript
+ arr.reduce(callback(accumulator, currentValue), initialValue)
+ ``` 
+`callback:` The function to execute on each array element (except the first element if no initialValue is provided). It takes in
+
+`accumulator:` - It accumulates the callback's return values.
+
+`currentValue:` - The current element being passed from the array.
+
+`initialValue (optional):` A value that will be passed to callback() on first call. If not provided, the first element acts as the accumulator on the first call and callback() won't execute on it.
+
 5. Follow this JavaScript Array Map
+
+The `map()` method creates a new array with the results of calling a function for every array element.
+
+The syntax of the map() method is:
+```javascript
+arr.map(callback(currentValue), thisArg)
+```
+`callback:` The function called for every array element. Its return values are added to the new array. It takes in:
+
+`currentValue:` The current element being passed from the array.
+
+`thisArg (optional):` Value to use as this when executing callback. By default, it is undefined.
 
 ## Week challenges (Tuesday) 💻
 
