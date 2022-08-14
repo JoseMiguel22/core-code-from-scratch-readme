@@ -4,9 +4,9 @@
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
 
-ompiled languages they are those that require a compiler so that a written program can be executed, the compiler is a program that takes the source code and translates it in such a way that it results in an executable file which is now written in machine language that is, in ones and zeros or better known as binary code.
+`Compiled languages:` they are those that require a compiler so that a written program can be executed, the compiler is a program that takes the source code and translates it in such a way that it results in an executable file which is now written in machine language that is, in ones and zeros or better known as binary code.
 
-Interpreted languages: They are a little simpler, in these languages an interpreter is needed so that the written source code can be executed, what the interpreter does is take the file and go line by line translating that language to the machine code, but at runtime.
+`Interpreted languages:` They are a little simpler, in these languages an interpreter is needed so that the written source code can be executed, what the interpreter does is take the file and go line by line translating that language to the machine code, but at runtime.
 
 2. Is Java compiled or interpreted, or both?, check the sources and answer the question in your README
 
@@ -37,18 +37,13 @@ You have been selected to develop the algorithm that will be used to convert dol
 ```
 4. Learn about High and Low level languages
 
-High-level languages: 
-
-is one that is user-oriented in that it has been designed to make it straightforward for a programmer to convert an algorithm into program code.
-They are languages independent of the architecture of the computer. So, in principle, a program written in a high-level language can be migrated from one machine to another without any problem.
+`High-level languages:` is one that is user-oriented in that it has been designed to make it straightforward for a programmer to convert an algorithm into program code. They are languages independent of the architecture of the computer. So, in principle, a program written in a high-level language can be migrated from one machine to another without any problem.
 
 These languages allow the programmer to completely forget about the inner workings of the machine/s for which they are designing the program. They just need a translator who understands the source code as well as the characteristics of the machine.
 
 Examples of high level languages we have: Java, C#, Python, JavaScript.
 
-Low-level languages: 
-
-is machine-oriented. Low-level programs are expressed in terms of the machine operations that must be performed to carry out a task. This makes writing programs more difficult, as the algorithm must be specified in terms of the capabilities and specifications of the processor. Low-level languages are named for the processor (or processor family) that they are designed for, and are often referred to as assembly language or machine code.
+`Low-level languages:` is machine-oriented. Low-level programs are expressed in terms of the machine operations that must be performed to carry out a task. This makes writing programs more difficult, as the algorithm must be specified in terms of the capabilities and specifications of the processor. Low-level languages are named for the processor (or processor family) that they are designed for, and are often referred to as assembly language or machine code.
 
 ## Week challenges (Wednesday) 💻
 
