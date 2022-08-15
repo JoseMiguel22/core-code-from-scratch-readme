@@ -77,7 +77,11 @@ example:
 ``` 
 `Solution`
 ```javascript
-
+function order(words){
+  return words.split(' ').sort(function(a, b){
+      return a.match(/\d/) - b.match(/\d/);
+   }).join(' ');
+  }
 ```
 ## Week challenges (Tuesday) 💻
 
@@ -94,14 +98,8 @@ pigIt('Hello world !');     // elloHay orldway !
 ``` 
 `Solution`
 ```javascript
-function pigIt(str) {
-  let pMarks = ['!', '¡', '?', '¿', '.', ',', ':', ';'];
-  str = str.split(' ');
-  for (let i = 0; i < str.length; i++) {
-    if (pMarks.indexOf(str[i]) >= 0) continue;
-    str[i] = str[i].slice(1) + str[i].slice(0, 1) + 'ay';
-  }
-  return str.join(' ');
+ function pigIt(str){
+  return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
 }
 ```
 2. Counting Duplicates exercise
@@ -157,7 +155,14 @@ For example:
  NOTE: For coding purposes you have to use ASCII characters . and -, not Unicode characters.
 `Solution`
 ```javascript
-
+decodeMorse = function(morseCode){
+  return morseCode
+    .split(' ')
+    .map((word) => MORSE_CODE[word] || ' ')
+    .join('')
+    .replace(/  /g, ' ')
+    .trim();
+};
 ```
 ## Week challenges (Wednesday) 💻
 
@@ -181,7 +186,16 @@ Constraints
 
 `Solution`
 ```javascript
-
+function validParentheses(parens) {
+  let valid = 0;
+  for (let i = 0; i < parens.length; i++){
+    if (parens[i] === ')') valid--;
+    if (parens[i] === '(') valid++;
+    if (valid < 0) return false;
+  }
+    
+  return valid == 0;
+}
 ```
 2. Convert String To Camel Case exercise
 
@@ -263,7 +277,11 @@ The input array should not be modified!
 
 `Solution`
 ```javascript
-
+function foldArray(array, runs) {
+  const r = [], c = array.slice();
+  while (c.length) r.push(c.pop() + (c.shift() || 0));
+  return runs - 1 ? foldArray(r, runs - 1) : r;
+}
 ```
 
 2. Encrypt This! exercise
