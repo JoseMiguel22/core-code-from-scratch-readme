@@ -78,6 +78,9 @@ code block;
 1. Start this [HTML](https://edpuzzle.com/join/vawasaj) course
 2. Multiply exercise
 
+`Description`
+This code does not execute properly. Try to figure out why.
+
 `Solution`
 ```javascript
 function multiply(a, b){
@@ -86,6 +89,14 @@ function multiply(a, b){
 ```
 
 3. ASCII Total exercise
+
+`Description`
+
+You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+
+examples:
+
+uniTotal("a") == 97 uniTotal("aaa") == 291
 
 `Solution`
 ```javascript
@@ -103,7 +114,19 @@ return suma;
 
  1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
  2. Char From ASCII Value exercise
-  
+
+`Description`
+
+Write a function `get_char()` / `getChar()` which takes a number and returns the corresponding ASCII char for that value.
+
+Example:
+
+`get_char(65)`
+
+should return:
+
+`'A'`
+
 `Solution`
 ```javascript
 function getChar(c){
@@ -111,7 +134,19 @@ function getChar(c){
 }
 ```
 3. Binary Addition exercise
+
+`Description`
  
+ Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
+
+The binary number returned should be a string.
+
+Examples:(Input1, Input2 --> Output (explanation)))
+
+```assembly
+1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
+5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
+``` 
 `Solution`
 ```javascript
 function addBinary(a,b) {
@@ -120,6 +155,39 @@ function addBinary(a,b) {
 }
 ```
 4. Student's Final Grad exercise
+
+`Description`
+
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+
+This function should return a number (final grade). There are four types of final grades:
+
+100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+
+90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+
+75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+
+0, in other cases
+
+Examples(Inputs-->Output):
+
+```
+100, 12 --> 100
+99, 0 --> 100
+10, 15 --> 100
+
+85, 5 --> 90
+
+55, 3 --> 75
+
+55, 0 --> 0
+20, 2 --> 0
+
+```
+*Use Comparison and Logical Operators.
 
 `Solution`
 
@@ -137,6 +205,20 @@ function finalGrade (exam, projects) {
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj) course you started on Tuesday
 2. Remove All Exclamation Marks From The End Of Sentence exercise
 
+`Description`
+
+Remove all exclamation marks from the end of sentence.
+
+Examples
+```
+remove("Hi!") === "Hi"
+remove("Hi!!!") === "Hi"
+remove("!Hi") === "!Hi"
+remove("!Hi!") === "!Hi"
+remove("Hi! Hi!") === "Hi! Hi"
+remove("Hi") === "Hi"
+```
+
 `Solution`
 ```javascript
 function remove (string) {  
@@ -145,6 +227,17 @@ function remove (string) {
 ```
 3. Vowel Remover exercise
 
+`Description`
+
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+```
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+```
 `Solution`
 ```javascript
 function shortcut (string) {
@@ -154,7 +247,19 @@ function shortcut (string) {
 
 4. Rock Paper Scissors! exercise3
 
- `Solution`
+`Description`
+
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+Examples(Input1, Input2 --> Output):
+```
+"scissors", "paper" --> "Player 1 won!"
+
+"scissors", "rock" --> "Player 2 won!"
+
+"paper", "paper" --> "Draw!"
+```
+`Solution`
 ```javascript
 const rps = (p1, p2) => {
  if(p1 === "scissors" && p2 === "paper") {
@@ -180,7 +285,17 @@ const rps = (p1, p2) => {
 ```
 
  5. Persistent Bugger exercise
+
+`Description` 
  
+ Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+For example (Input --> Output):
+```
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+4 --> 0 (because 4 is already a one-digit number)
+ ```
  `Solution`
 ```javascript
 function persistence(num) {
