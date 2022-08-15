@@ -26,7 +26,7 @@
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 
 Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
-```Assembly
+```
 []                                -->  "no one likes this"
 ["Peter"]                         -->  "Peter likes this"
 ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
@@ -70,7 +70,7 @@ Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
 If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
 
 example:
-```Assembly 
+``` 
 "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
 "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
 ""  -->  ""
@@ -88,7 +88,7 @@ example:
 Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 
 example:
-```Assembly
+```
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 ``` 
@@ -111,7 +111,7 @@ function pigIt(str) {
 Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
 
 Example
-```Assembly
+```
 "abcde" -> 0 # no characters repeats more than once
 "aabbcde" -> 2 # 'a' and 'b'
 "aabBcde" -> 2 # 'a' occurs twice and 'b' twice (`b` and `B`)
@@ -150,7 +150,7 @@ In addition to letters, digits and some punctuation, there are some special serv
 Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
 
 For example:
-```Assembly
+```
  decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
  ```
@@ -169,7 +169,7 @@ Write a function that takes a string of parentheses, and determines if the order
 
 Examples
 
-```Assembly
+```
 "()"              =>  true
 ")(()))"          =>  false
 "("               =>  false
@@ -208,7 +208,7 @@ Implement the function unique_in_order which takes as argument a sequence and re
 
 For example:
 
-```Assembly
+```
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
 uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
@@ -237,7 +237,7 @@ var uniqueInOrder=function(iterable){
 In this kata you have to write a method that folds a given array of integers by the middle x-times.
 
 An example says more than thousand words:
-```Assembly
+```
 Fold 1-times:
 [1,2,3,4,5] -> [6,6,3]
 
@@ -283,7 +283,7 @@ You want to create secret messages which can be deciphered by the Decipher this!
 3.Keepin' it simple: There are no special characters in the input.
 
 Examples:
-```Assembly
+```
 encryptThis("Hello") === "72olle"
 encryptThis("good") === "103doo"
 encryptThis("hello world") === "104olle 119drlo"
