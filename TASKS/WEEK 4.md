@@ -93,6 +93,41 @@ arr.map(callback(currentValue), thisArg)
 6. Check [Regexr](https://regexr.com/), a tool to test your regular expressions (It is not mandatory for the Readme)
 7. A complete Regular Expressions
 
+
+`Resumen`
+
+`Regular Expressions`
+
+A regular expression (often called RegExp or RegEx) is a special string, called a pattern, that uses multiple sequences of characters to define the characteristics for matching a sequence of characters within another string.
+
+A RegExp object can also have flags set along with a pattern to change the way the matches are made.
+
+There are two methods of creating a RegExp object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the RegExp constructor which takes the pattern as the first argument and any flags as the second.
+```javascript
+// Using literal notation
+let re1 = /foo?/i;
+
+// Using RegExp constructor
+let re2 = new RegExp('foo?', 'i');
+```
+There is a difference between the methods. Literal notation compiles when the expression is evaluated. It should be used when the pattern will remain constant, so it won’t be recompiled unnecessarily, such as in a loop.
+
+Using the object constructor means the expression will be compiled at runtime. It should be used when the pattern of the RegExp object would be subject to change, or the pattern is obtained during runtime, such as from user input.
+
+
+`replace`
+The replace() method returns a new string with the specified string/regex replaced.
+
+The syntax of replace() is:
+
+```javascript
+str.replace(pattern, replacement)
+```
+
+`pattern:`either a string or a regex that is to be replaced
+
+`replacement:`the pattern is replaced with this replacement (can be either a string or a function)
+
 ## Week challenges (Wednesday) 💻
 
 1. Time to catch up ⏱️ or do extra work ⭐
