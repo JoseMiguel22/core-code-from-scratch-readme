@@ -6,7 +6,7 @@
 
 </a>
 
-<h1 align="center">Fundamentals Activities</h1>
+<h1 align="center">Fundamentals</h1>
 
  ## 1. Technologies tasks
 
@@ -27,4 +27,3 @@
 |- Week 13 : [Pause Day & S.O.L.I.D](src/technologies/2022/week13)||
 |- Week 14 : [End Of Month](src/technologies/2022/week14)||
 
-## 2. Core Challenges
