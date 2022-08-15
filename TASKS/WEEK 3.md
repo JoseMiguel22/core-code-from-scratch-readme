@@ -230,7 +230,7 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 
 `Solution`
 ```javascript
-var uniqueInOrder=function(iterable){
+var uniqueInOrder = function(iterable){
   let result =[];
   let ultima;
   for(let i = 0 ; i < iterable.length ; i++ ){
