@@ -2,21 +2,6 @@
 
 ## Week goal 🏁
 
-<p>Learn about Javascript behaviour</p>
-
-## Week subtopics
-
-- scopes
-- var, let, const
-- Operators
-  - TypeOf
-- Data structure
-  - Array
-  - List
-  - Stack
-- Object
-- DOM API
-
 ## Week challenges (Monday) 💻
 
 1. Who Likes It? exercise
