@@ -4,16 +4,6 @@
 
 <p>Lear about Javascript ES6 features</p>
 
-## Week subtopics
-
-- ES6 features
-  - Template strings
-  - Arrow functions
-  - Rest/Spread operator
-  - Destructuring assigment
-  - Array Map
-- Q&A
-
 ## Week challenges (Monday) 💻
 
 1. Time to catch up ⏱️ or do extra work ⭐
