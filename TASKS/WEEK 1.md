@@ -1,5 +1,9 @@
 <h1 align="center">Introduction to programming & Javascript - Week 1</h1>
 
+## Week goal 🏁
+
+<p>Learn about the basics of programming and start knowing Javascript</p>
+
 ## Week challenges (Tuesday) 💻
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
