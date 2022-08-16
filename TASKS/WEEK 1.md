@@ -227,7 +227,7 @@ The error is in the following line:
 ```javascript
 if ((cond = true))
 ```
-The person was assigning and not asking, he should use "==" and not "=". To solve it we must eliminate the double parentheses ```(())``` and add double ```==``` to indicate that we are asking
+The person was assigning and not asking, he should use "==" and not "=". To solve it we remove a couple of parentheses `()` and add double `==` to indicate that we are asking.
 ```javascript
 var cond = false;
 
