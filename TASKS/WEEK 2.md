@@ -2,6 +2,8 @@
 
 ## Week goal 🏁
 
+<p>Learn about Javascript structure</p>
+
 ## Week challenges (Monday) 💻
 
 1. Follow the github course, you can find it [here](https://www.udacity.com/course/version-control-with-git--ud123)
