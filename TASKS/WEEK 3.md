@@ -2,6 +2,8 @@
 
 ## Week goal 🏁
 
+<p>Learn about Javascript behaviour</p>
+
 ## Week challenges (Monday) 💻
 
 1. Who Likes It? exercise
