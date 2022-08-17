@@ -6,7 +6,7 @@
 
 </a>
 
-<h1 align="center">Fundamentals</h1>
+<h1 align="center">Fundamentals Activities</h1>
 
  ## 1. Technologies tasks
 
