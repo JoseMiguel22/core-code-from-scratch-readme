@@ -37,6 +37,8 @@ There are a few problems with object-oriented programming:
 
 `Conclusion`
 
+So to conclude there is no objective winner of the debate we cannot simply say one is better than the other both styles of programming excel in their own ways and each one has its advantages and disadvantages over the other.
+
 Both programming concepts have the goal of creating easily understandable, error-free programs that can be developed quickly. Both concepts have different methods to store the data and how to manipulate the data.
 
 In object-oriented programming, you store data in object attributes and have functions that work for that object and perform the manipulation.
