@@ -80,13 +80,9 @@ Encapsulation can be described as a protective barrier that prevents the code an
 
 1. [Get started with TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/) guided exercise, using `Typescript`
 
-TypeScript (TS) es un lenguaje de programación construido a un nivel superior de JavaScript (JS). Esto quiere decir que TypeScript dota al lenguaje de varias características adicionales que hacen que podamos escribir código con menos errores, más sencillo, coherente y fácil de probar, en definitiva, más limpio y sólido.
+¿What is TypeScript?
 
-Fue creado por Microsoft en 2012 y, desde entonces, su adopción no ha hecho más que crecer. Especialmente, desde que Google decidió adoptarlo como lenguaje por defecto para desarrollar con Angular. Aunque, hoy en día, podemos desarrollar con TypeScript en cualquiera de los frameworks o librerías más punteras, como son React para el frontend o Node para el backend.
-
-The core feature of TypeScript is its type system. In TypeScript, you can identify the data type of a variable or parameter by using a type hint. With type hints, you describe the shape of an object, which provides better documentation and allows TypeScript to validate that your code is working correctly.
-
-Through static type checking, TypeScript catches code issues early in development that JavaScript can't normally catch until the code is run in the browser. Types also let you describe what your code is intended to do. If you're working on a team, a teammate who comes in after you can easily understand it too.
+TypeScript is an open-source language that was developed by Microsoft. It is a superset of JavaScript, which means that you can continue to use the JavaScript skills you've already developed and add certain features that were previously unavailable to you.
 
 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
