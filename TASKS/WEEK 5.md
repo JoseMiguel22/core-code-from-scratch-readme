@@ -80,11 +80,11 @@ Encapsulation can be described as a protective barrier that prevents the code an
 
 1. [Get started with TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/) guided exercise, using `Typescript`
 
-¿What is TypeScript?
+`¿What is TypeScript?`
 
 TypeScript is an open-source language that was developed by Microsoft. It is a superset of JavaScript, which means that you can continue to use the JavaScript skills you've already developed and add certain features that were previously unavailable to you.
 
-Compile a TypeScript file
+`Compile a TypeScript file`
 
 TypeScript is a strict superset of ECMAScript 2015 (ECMAScript 6 or ES6). All JavaScript code is also TypeScript code, and a TypeScript program can seamlessly consume JavaScript. In fact, you can convert a JavaScript file to a TypeScript file by simply renaming the extension from .js to .ts.
 
@@ -98,7 +98,7 @@ If there are no compiler errors, the `tsc` command generates a JavaScript file n
 
 If the compiler finds errors in the code, it displays them in the command window. Fix the errors in the TypeScript file, and then rerun the `tsc` command.
 
-- [] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+-[] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Extra (It is not mandatory for the Readme) ⭐
 
