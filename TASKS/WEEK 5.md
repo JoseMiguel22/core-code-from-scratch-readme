@@ -84,7 +84,21 @@ Encapsulation can be described as a protective barrier that prevents the code an
 
 TypeScript is an open-source language that was developed by Microsoft. It is a superset of JavaScript, which means that you can continue to use the JavaScript skills you've already developed and add certain features that were previously unavailable to you.
 
-3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+Compile a TypeScript file
+
+TypeScript is a strict superset of ECMAScript 2015 (ECMAScript 6 or ES6). All JavaScript code is also TypeScript code, and a TypeScript program can seamlessly consume JavaScript. In fact, you can convert a JavaScript file to a TypeScript file by simply renaming the extension from .js to .ts.
+
+However, not all TypeScript code is JavaScript code. This is because TypeScript adds new syntax to JavaScript, which makes JavaScript easier to read and implements some features, such as static typing. Although TypeScript code makes development easier and less error-prone, browsers and most other runtimes do not support TypeScript natively. You can transform TypeScript code into JavaScript code using the TypeScript compiler, or you can use a TypeScript-compatible transpiler, such as Babel , swc , or Sucrase . This process removes TypeScript-specific code. Additionally, it generates a clean JavaScript file that you can run from your web pages and is cross-browser compatible.
+
+You run the TypeScript compiler at the command prompt by using the `tsc` command. When you run `tsc` without additional parameters, it compiles all the .ts files in the current folder and generates a .js file for each one.
+
+You can also compile a specific file. For example, to compile a TypeScript file named utility_functions.ts, enter `tsc utility_functions.ts`.
+
+If there are no compiler errors, the `tsc` command generates a JavaScript file named utility_functions.js.
+
+If the compiler finds errors in the code, it displays them in the command window. Fix the errors in the TypeScript file, and then rerun the `tsc` command.
+
+- [] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Extra (It is not mandatory for the Readme) ⭐
 
