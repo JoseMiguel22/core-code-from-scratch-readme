@@ -25,7 +25,7 @@
 JavaScript is a dynamically typed language. The static type system in TypeScript allows you to describe the shape of an object, have better documentation, and let TypeScript validate that your code works correctly. How a type is formed and associated with a linguistic entity depends on the entity type. Los tipos null y undefined son subtipos de todos los demás tipos.
 
 <details>
-<summary>types in TypeScript</summary>
+<summary>Types in TypeScript</summary>
  
  The main benefit of Typescript is that it enables you to add static types to your JavaScript code. Types place static constraints on program entities, such as functions, variables, and properties, so that compilers and development tools can offer better verification and assistance during development.
 </details>
@@ -567,7 +567,18 @@ console.log(randomNumbers);
 
 
 2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1) exercise
+
+
+
+
+
+
 3. [TypeScript Unions](https://typescript-exercises.github.io/#exercise=2) exercise
+
+
+
+
+
 
 ## Week challenges (Tuesday) 💻
 
