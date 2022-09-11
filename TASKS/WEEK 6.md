@@ -649,8 +649,34 @@ persons.forEach(logPerson);
 ## Week challenges (Tuesday) 💻
 
 1. [Square(n) Sum](./exercises/e00/desc) exercise, using `Typescript`
+
+`Solution`
+
+```typescript
+export function squareSum(numbers: number[]): number {
+   
+  return numbers.map(x => x * x)
+                .reduce((prev, curr) => prev + curr, 0);
+}
+```
+
 2. [A Wolf In Sheep's Clothing](./exercises/e03/desc) exercise, using `Typescript`
 
+`Solution`
+
+```typescript
+export function warnTheSheep(queue: string[]): string {
+  
+ const wolfIndex = queue.indexOf("wolf");
+  console.log(wolfIndex)
+  if (wolfIndex === queue.length - 1){
+    return "Pls go away and stop eating my sheep";
+  }
+  const sheepIndex = queue.length - wolfIndex - 1;
+  console.log(sheepIndex)
+  return `Oi! Sheep number ${sheepIndex}! You are about to be eaten by a wolf!`;
+}
+```
 ## Week challenges (Wednesday) 💻
 
 1. [A Rule Of Divisibility By 13](./exercises/e04/desc) exercise, using `Typescript`
