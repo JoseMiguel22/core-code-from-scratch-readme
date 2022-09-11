@@ -113,7 +113,7 @@ JavaScript and TypeScript have two primitive values used to signal absent or uni
 </details>
 
 <details>
-<summary>enums</summary>
+<summary>Enums</summary>
 
 A helpful addition to the standard set of datatypes from JavaScript is the enumeration type, or enum.
 
