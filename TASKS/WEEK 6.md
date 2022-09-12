@@ -680,9 +680,59 @@ export function warnTheSheep(queue: string[]): string {
 ## Week challenges (Wednesday) 💻
 
 1. [A Rule Of Divisibility By 13](./exercises/e04/desc) exercise, using `Typescript`
+  
+  `Solution`
+
+```typescript
+  
+  const rem = [1, 10, 9, 12, 3, 4];
+
+export function process(n: number): number {
+  let reversedNumber: string[] = n.toString().split('').reverse();
+  let index = 0;
+  let result = reversedNumber.reduce((total: number, digit: string) => {
+    if (index > 5) index = 0;
+    return total + Number(digit) * rem[index++];
+  }, 0);
+  if (result === n) return result;
+  return process(result);
+}
+
+export function thirt(n: number): number {
+  return process(n);
+}
+```
 2. [Playing With Digits](./exercises/e05/desc) exercise, using `Typescript`
 
+  `Solution`
 
+```typescript
+  export class G964 {
+  public static digPow = (n: number, p: number) => {
+    const sum = n
+      .toString()
+      .split('')
+      .map(Number)
+      .reduce((prev: number, curr: number) => prev + Math.pow(curr, p++), 0);
+    if (sum % n === 0) return sum / n;
+    return -1;
+  };
+}
+```
+  
+  `Other`
+  
+```typescript
+  export class G964 {
+
+    public static digPow = (n, p) => {
+        var x = n.toString().split("").reduce((s, d, i) => s + Math.pow(d, p + i), 0)
+        return x % n ? -1 : x / n;
+    }
+}
+```
+  
+  
 ## Week challenges (Thursday) 💻
 
 1. [Declare and instantiate classes in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/) guided exercise, using `Typescript`
