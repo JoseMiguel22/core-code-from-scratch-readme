@@ -684,23 +684,17 @@ export function warnTheSheep(queue: string[]): string {
   `Solution`
 
 ```typescript
-  
-  const rem = [1, 10, 9, 12, 3, 4];
-
-export function process(n: number): number {
-  let reversedNumber: string[] = n.toString().split('').reverse();
-  let index = 0;
-  let result = reversedNumber.reduce((total: number, digit: string) => {
-    if (index > 5) index = 0;
-    return total + Number(digit) * rem[index++];
-  }, 0);
-  if (result === n) return result;
-  return process(result);
+  export function thirt(n: number): number {
+   let remainders: number[] = [1, 10, 9, 12, 3, 4];
+  let result = n
+    .toString()
+    .split('')
+    .reverse()
+    .map((c: string, i: number) => parseInt(c) * remainders[i % 6])
+    .reduce((p: number, c: number) => (p += c));
+  return n == result ? result : thirt(result);
 }
 
-export function thirt(n: number): number {
-  return process(n);
-}
 ```
 2. [Playing With Digits](./exercises/e05/desc) exercise, using `Typescript`
 
@@ -739,14 +733,6 @@ export function thirt(n: number): number {
 2. [Tile](./exercises/e09/desc) exercise, using `Typescript`
 3. [Time](./exercises/e10/desc) exercise, using `Typescript`
 4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
-
-## Extra (It is not mandatory for the Readme) ⭐
-1. [Growth Of A Population](./exercises/e01/desc) exercise, using `Typescript`
-2. [Mumbling](./exercises/e02/desc) exercise, using `Typescript`
-3. [Valid Braces](./exercises/e06/desc) exercise, using `Typescript`
-4. [Tic-Tac-Toe](./exercises/e07/desc) exercise, using `Javascript`
-5. [Tic-Tac-Toe-Like Table Generator](./exercises/e08/desc) exercise, using `Javascript`
-
 
 ## Week links 🔗
 
