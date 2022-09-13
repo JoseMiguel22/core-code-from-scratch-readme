@@ -730,7 +730,153 @@ export function warnTheSheep(queue: string[]): string {
 ## Week challenges (Thursday) 💻
 
 1. [Declare and instantiate classes in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/) guided exercise, using `Typescript`
+
+ `Solution`
+
+```typescript
+
+/*  Module 5: Declare and instantiate classes in TypeScript
+    Lab Start  */
+
+/*  EXERCISE 1 */
+
+class BuildArray {
+    // TODO Define the properties
+private _items : number;
+private _sortOrder : "ascending" | "descending";
+
+    // TODO Define the constructor
+constructor(items: number, sortOrder: "ascending"| "descending"){
+    this._items = items;
+    this._sortOrder = sortOrder;
+}
+    // TODO Define the accessors
+get items(){
+    return this._items;
+}
+set items(items){
+    this._items = items;
+}
+get sortOrder(){
+    return this._sortOrder;
+}
+set sortOrder(sortOrder){
+    this._sortOrder = sortOrder;
+}
+    // TODO Define the methods
+private sortDescending = (a: number, b: number) => {
+    if (a > b) {
+        return -1;
+    } else if (b > a) {
+        return 1;
+    } else {
+        return 0; }
+}
+private sortAscending = (a: number, b: number) => {
+    if (a > b) {
+        return 1;
+    } else if (b > a) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
+ buildArray(items: number, sortOrder: 'ascending' | 'descending'): number[] {
+    let randomNumbers: number[] = [];
+    let nextNumber: number;
+    for (let counter = 0; counter < items; counter++) {
+        nextNumber = Math.ceil(Math.random() * (100 - 1));
+        if (randomNumbers.indexOf(nextNumber) === -1) {
+            randomNumbers.push(nextNumber);
+        } else {
+            counter--;
+        }
+    }
+    if (sortOrder === 'ascending') {
+        return randomNumbers.sort(this.sortAscending);
+    } else {
+        return randomNumbers.sort(this.sortDescending);
+    }
+}
+
+}
+
+
+let testArray1 = new BuildArray(12, 'ascending');
+let testArray2 = new BuildArray(8, 'descending');
+console.log(testArray1);
+console.log(testArray2);
+
+
+
+
+/*  sortDescending is a comparison function that tells the sort method how to sort numbers
+    in descending order. */
+
+
+/*  sortAscending is a comparison function that tells the sort method how to sort numbers 
+    in ascending order. */
+
+
+/*  buildArray builds an array of unique random numbers containing the number of items 
+    based on the number passed to it. The sortOrder parameter determines whether to sort 
+    the array in ascending or descending order. */
+
+
+/*  TODO: Instantiate the BuildArray objects. */
+```
+
+
+
+
+
 2. [Tile](./exercises/e09/desc) exercise, using `Typescript`
+
+`Solution`
+
+```typescript
+export default class Tile {
+//Property
+
+_letter: string;
+_value: number;
+
+//constructor
+constructor(letter: string, value: number){
+    this._letter = letter;
+    this._value = value;
+}
+
+//accesors
+get letter(){
+    return this._letter;
+}
+set letter(letter){
+    this._letter = letter;
+}
+
+get value(){
+    return this._value;
+}
+set value(value){
+    this._value = value;
+}
+
+//Methods
+
+printTile(){
+    console.log(`==================
+        Letter:${this._letter}
+        Value: ${this._value}
+      ==================`)
+}
+
+}
+```
+
+
+
 3. [Time](./exercises/e10/desc) exercise, using `Typescript`
 4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
 
