@@ -828,9 +828,6 @@ console.log(testArray2);
 ```
 
 
-
-
-
 2. [Tile](./exercises/e09/desc) exercise, using `Typescript`
 
 `Solution`
@@ -875,11 +872,79 @@ printTile(){
 }
 ```
 
-
-
 3. [Time](./exercises/e10/desc) exercise, using `Typescript`
+
+`Solution`
+
+```typescript
+export default class Time{
+_hour: number;
+_minute: number;
+_second: number;
+
+constructor(hour: number, minute: number, second: number){
+    this._hour = hour;
+    this._minute = minute;
+    this._second;
+}
+
+getInSeconds(){
+    let hourToseconds = this._hour * 3600;
+    let minutesToseconds = this._minute / 60;
+    let seconds = hourToseconds + minutesToseconds + this._second;
+    console.log(seconds);
+}
+
+printTime(){
+    console.log(`==================
+        Hours: ${this._hour}
+        Minutes: ${this._minute}
+        Seconds: ${this._second}
+      ==================`)
+}
+
+}
+```
+
 4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
 
+`Solution`
+
+```typescript
+export default class Rational {
+_numerator: number;
+_denominator: number;
+
+constructor(numerator: number, denominator: number ){
+    this._numerator = numerator;
+    this._denominator = denominator;
+}
+
+printRational(){
+    console.log(`${this._numerator} / ${this._denominator}`)
+}
+
+invert(){
+    return [this._numerator, this._denominator] =
+[this._denominator, this._numerator] 
+}
+
+toFloat(){
+  return this._numerator / this._denominator;
+}
+
+gdc(n: number, d: number){
+    if(d == 0) return n;
+    return this.gdc(d, n % d);
+}
+
+reduce(){
+    const gdc = this.gdc(this._numerator, this._denominator);
+    this._numerator = this._numerator / gdc;
+    this._denominator = this._denominator / gdc;
+}
+}
+```
 ## Week links 🔗
 
 1. [Everyday types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) in typescript
