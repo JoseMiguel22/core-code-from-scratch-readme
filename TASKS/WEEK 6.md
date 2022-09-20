@@ -4,23 +4,10 @@
 
 <p>Learn about classes, instances, inheritance and data type with Typescript</p>
 
-## Week subtopics
-
-- Introduction to Object Oriented Programming
-  - Abstraction
-  - Inheritance
-  - Polymorphism
-  - Encapsulation
-- Concept of class
-  - Attributes
-  - Methods
-  - Constructor
-- Classes with Typescript
-- Concept of instance
 
 ## Week challenges (Monday) 💻
 
-1. [Declare variable types in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/) guided exercise, using `Typescript`
+- [x] 1. [Declare variable types in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/) guided exercise, using `Typescript`
 
 JavaScript is a dynamically typed language. The static type system in TypeScript allows you to describe the shape of an object, have better documentation, and let TypeScript validate that your code works correctly. How a type is formed and associated with a linguistic entity depends on the entity type. Los tipos null y undefined son subtipos de todos los demás tipos.
 
@@ -566,7 +553,7 @@ console.log(randomNumbers);
 
 
 
-2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1) exercise
+- [x] 2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1) exercise
 
 `Solution`
 
@@ -594,7 +581,7 @@ console.log('Users:');
 users.forEach(logPerson);
 ```
 
-3. [TypeScript Unions](https://typescript-exercises.github.io/#exercise=2) exercise
+- [x] 3. [TypeScript Unions](https://typescript-exercises.github.io/#exercise=2) exercise
 
 `Solution`
 
@@ -648,7 +635,7 @@ persons.forEach(logPerson);
 
 ## Week challenges (Tuesday) 💻
 
-1. [Square(n) Sum](./exercises/e00/desc) exercise, using `Typescript`
+- [x] 1. [Square(n) Sum](./exercises/e00/desc) exercise, using `Typescript`
 
 `Solution`
 
@@ -660,7 +647,7 @@ export function squareSum(numbers: number[]): number {
 }
 ```
 
-2. [A Wolf In Sheep's Clothing](./exercises/e03/desc) exercise, using `Typescript`
+- [x] 2. [A Wolf In Sheep's Clothing](./exercises/e03/desc) exercise, using `Typescript`
 
 `Solution`
 
@@ -679,7 +666,7 @@ export function warnTheSheep(queue: string[]): string {
 ```
 ## Week challenges (Wednesday) 💻
 
-1. [A Rule Of Divisibility By 13](./exercises/e04/desc) exercise, using `Typescript`
+- [x] 1. [A Rule Of Divisibility By 13](./exercises/e04/desc) exercise, using `Typescript`
   
   `Solution`
 
@@ -696,7 +683,7 @@ export function warnTheSheep(queue: string[]): string {
 }
 
 ```
-2. [Playing With Digits](./exercises/e05/desc) exercise, using `Typescript`
+- [x] 2. [Playing With Digits](./exercises/e05/desc) exercise, using `Typescript`
 
   `Solution`
 
@@ -729,8 +716,10 @@ export function warnTheSheep(queue: string[]): string {
   
 ## Week challenges (Thursday) 💻
 
-1. [Declare and instantiate classes in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/) guided exercise, using `Typescript`
+- [x] 1. [Declare and instantiate classes in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/) guided exercise, using `Typescript`
 
+<details>
+<summary>Lab - Convert three TypeScript functions to a class definition</summary>
  `Solution`
 
 ```typescript
@@ -807,45 +796,24 @@ let testArray1 = new BuildArray(12, 'ascending');
 let testArray2 = new BuildArray(8, 'descending');
 console.log(testArray1);
 console.log(testArray2);
-
-
-
-
-/*  sortDescending is a comparison function that tells the sort method how to sort numbers
-    in descending order. */
-
-
-/*  sortAscending is a comparison function that tells the sort method how to sort numbers 
-    in ascending order. */
-
-
-/*  buildArray builds an array of unique random numbers containing the number of items 
-    based on the number passed to it. The sortOrder parameter determines whether to sort 
-    the array in ascending or descending order. */
-
-
-/*  TODO: Instantiate the BuildArray objects. */
 ```
+</details>
 
-
-2. [Tile](./exercises/e09/desc) exercise, using `Typescript`
+- [x] 2. [Tile](./exercises/e09/desc) exercise, using `Typescript`
 
 `Solution`
 
 ```typescript
 export default class Tile {
-//Property
 
 _letter: string;
 _value: number;
 
-//constructor
 constructor(letter: string, value: number){
     this._letter = letter;
     this._value = value;
 }
 
-//accesors
 get letter(){
     return this._letter;
 }
@@ -860,8 +828,6 @@ set value(value){
     this._value = value;
 }
 
-//Methods
-
 printTile(){
     console.log(`==================
         Letter:${this._letter}
@@ -872,7 +838,7 @@ printTile(){
 }
 ```
 
-3. [Time](./exercises/e10/desc) exercise, using `Typescript`
+- [x] 3. [Time](./exercises/e10/desc) exercise, using `Typescript`
 
 `Solution`
 
@@ -906,7 +872,7 @@ printTime(){
 }
 ```
 
-4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
+- [x] 4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
 
 `Solution`
 
@@ -945,11 +911,3 @@ reduce(){
 }
 }
 ```
-## Week links 🔗
-
-1. [Everyday types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) in typescript
-
-## Session links 🔗
-
-1. [OOP Typescript - Session example 08](https://github.com/corecodeio/funda03-e08)
-2. [More OOP Typescript - Session example 09](https://github.com/corecodeio/funda03-e09)
