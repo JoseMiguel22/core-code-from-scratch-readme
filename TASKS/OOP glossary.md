@@ -21,15 +21,36 @@
     The most common element of encapsulation are classes, where we encapsulate and wrap both methods and properties.
 
 5. `Class`
-   It defines a group or set of data, in objects they are called attributes, which define the objects, as well as a set of behaviors, the functions or methods of the object, which manipulate it and relate the objects to each other.
 
-   The attributes and methods are the members of the class.
+   Description/template of an object. It consists of a series of methods and data that summarize the characteristics of an object. Defining classes allows you to work with reusable code. Since from a class you can create an instance and thus reuse the code written for it without having to rewrite the code for the instance. The instance takes the pattern of the parent class. However, the variables are independent.
 
-6. Object
+6. `Object`
 
-7. Instance
-8. Interface
-9. Access Modifiers
-10. Constructors
+   It represents some real-life entity, that is, some of the unique objects that belong to the problem we are dealing with, and with which we can interact.
 
-`Example`
+   Each object, just like the real-life entity it represents, has a state (that is, attributes with specific values) and behavior (that is, it has functionalities or knows how to perform specific actions).
+
+   Informally, we can say that an object is any single element in the real world that can be interacted with.
+
+7. `Instance`
+
+   Any object that derives from another is called an instance. In this way, all objects are instances of some other, except for the Object class, which is the mother of all.
+
+8. `Interface`
+
+   An interface is a contract between two entities, this means that an interface provides a service to a consumer class. Therefore, the interface only shows us the declaration of the methods it has, not its implementation, thus allowing its encapsulation.
+
+9. `Access Modifiers`
+   Access modifiers allow the designer of a class to determine who accesses the data and member methods of a class. The access modifiers precede the declaration of a member element of the class (whether it is an attribute or a method) and there are four of them:
+
+   - default or package-private (when nothing is written)
+
+   - public
+
+   - protected
+
+   - private
+10. `Constructors`
+
+   It is a set of instructions specially designed to initialize an instance of an object.
+
