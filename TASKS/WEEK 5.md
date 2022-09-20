@@ -78,7 +78,7 @@ Encapsulation can be described as a protective barrier that prevents the code an
 
 ## Week challenges (Thursday) 💻
 
-1. [Get started with TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/) guided exercise, using `Typescript`
+- [x] 1. [Get started with TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/) guided exercise, using `Typescript`
 
 `¿What is TypeScript?`
 
@@ -98,11 +98,4 @@ If there are no compiler errors, the `tsc` command generates a JavaScript file n
 
 If the compiler finds errors in the code, it displays them in the command window. Fix the errors in the TypeScript file, and then rerun the `tsc` command.
 
--[] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
-
-## Extra (It is not mandatory for the Readme) ⭐
-
-1. [Find The Missing Letter](./exercises/e00/desc) exercise
-2. [Reverse Or Rotate?](./exercises/e01/desc) exercise
-3. [What's Your Poison?](./exercises/e02/desc) exercise
-4. [Array.diff](./exercises/e03/desc) exercise
+-[ ] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
