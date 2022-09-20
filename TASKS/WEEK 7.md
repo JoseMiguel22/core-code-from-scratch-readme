@@ -39,8 +39,34 @@
 ## Week challenges (Wednesday) 💻
 
 1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
-2. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
-
+`Solution`
+```typescript
+export const towerBuilder = (nFloors: number): string[] => {
+  if (nFloors === 1) return ['*'];
+  const tower: string[] = [];
+  const maxNumber = 2 * nFloors - 1;
+  for (let i = 1; i <= nFloors; i++) {
+    tower.push(
+      `${' '.repeat(nFloors - i)}${'*'.repeat(2 * i - 1)}${' '.repeat(
+        nFloors - i
+      )}`
+    );
+  }
+  return tower;
+};
+```
+3. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
+`Solution`
+```typescript
+export function meeting(s: string): string {
+  return s
+    .toUpperCase()
+    .split(';')
+    .map((n: string) => '(' + n.split(':').reverse().join(', ') + ')')
+    .sort()
+    .join('');
+}
+```
 ## Week challenges (Thursday) 💻
 
 1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
