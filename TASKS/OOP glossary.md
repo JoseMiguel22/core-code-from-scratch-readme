@@ -41,6 +41,7 @@
    An interface is a contract between two entities, this means that an interface provides a service to a consumer class. Therefore, the interface only shows us the declaration of the methods it has, not its implementation, thus allowing its encapsulation.
 
 9. `Access Modifiers`
+
    Access modifiers allow the designer of a class to determine who accesses the data and member methods of a class. The access modifiers precede the declaration of a member element of the class (whether it is an attribute or a method) and there are four of them:
 
    - default or package-private (when nothing is written)
