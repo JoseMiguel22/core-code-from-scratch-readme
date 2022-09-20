@@ -24,8 +24,8 @@
 ## Week challenges (Monday) 💻
 
 
-2. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
-3. [Readme - OOP](./exercises/e01/desc) exercise
+- [x] 1. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
+- [x] 2. [Readme - OOP](./exercises/e01/desc) exercise
 
 ## Week challenges (Tuesday) 💻
 
@@ -38,7 +38,7 @@
 
 ## Week challenges (Wednesday) 💻
 
-1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
+- [x] 1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
 
 `Solution`
 ```typescript
@@ -56,7 +56,7 @@ export const towerBuilder = (nFloors: number): string[] => {
   return tower;
 };
 ```
-3. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
+- [x] 2. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
 
 `Solution`
 ```typescript
@@ -71,7 +71,7 @@ export function meeting(s: string): string {
 ```
 ## Week challenges (Thursday) 💻
 
-1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
+- [x] 1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
 
 <details>
 <summary>Overview of interfaces in TypeScript</summary>
