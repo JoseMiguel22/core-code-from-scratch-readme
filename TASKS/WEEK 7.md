@@ -4,23 +4,6 @@
 
 <p>Learn about interfaces, data modifiers and function types, along with how to interact with the console using Typescript</p>
 
-## Week subtopics
-
-- Instances with Typescript
-- Typescript types
-  - number
-  - string
-  - boolean
-  - object
-- What is a data type?
-- Inferred & Declared types
-- Use of Inheritance with typescript
-- Data Modifiers
-  - public
-  - private
-  - protected
-- Interfaces
-
 ## Week challenges (Monday) 💻
 
 
