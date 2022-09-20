@@ -39,6 +39,7 @@
 ## Week challenges (Wednesday) 💻
 
 1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
+
 `Solution`
 ```typescript
 export const towerBuilder = (nFloors: number): string[] => {
@@ -56,6 +57,7 @@ export const towerBuilder = (nFloors: number): string[] => {
 };
 ```
 3. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
+
 `Solution`
 ```typescript
 export function meeting(s: string): string {
@@ -70,14 +72,96 @@ export function meeting(s: string): string {
 ## Week challenges (Thursday) 💻
 
 1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
-2. ✨Complete your 4th [**Core Challenge**](https://corecode.notion.site/Earn-your-SCRUM-certificate-8d9d0d40abaa4ee18c77c5a2cc1929b8). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
-## Extra (It is not mandatory for the Readme) ⭐
-1. [Menu](./exercises/e02/desc) exercise, using `Typescript`
+<details>
+<summary>Overview of interfaces in TypeScript</summary>
 
-## Week links 🔗
+`What is an interface`
 
-## Session links 🔗
+interfaces can be used to describe an object, by naming and parameterizing the object's types, and to compose existing named object types into new ones.
 
-1. [Typescript - Inheritance 10](https://github.com/corecodeio/funda03-e10)
-2. [Typescript - Interfaces 11](https://github.com/corecodeio/funda03-e11)
+Interfaces have no run-time representation; they are purely a compile-time construct. Interfaces are particularly useful for documenting and validating the required shape of properties, objects passed as parameters, and objects returned from functions.
+
+
+`Reasons for using an interface in TypeScript`
+
+- Make abbreviated names for the various common usages. You can still benefit from Intellisense and type checking even with a basic interface like the one described in the previous example.
+
+- Because each object that implements the interface operates under the same type definitions, it encourages consistency among a group of objects. This could be helpful if you're working with a team of developers and want to ensure that the right values are applied to the properties, builders, or functions. As an illustration, objects that implement a network must implement all of the network's necessary components. The TypeScript compiler will then throw an error if all of the necessary parameters of the right type are not passed.
+
+- Clarifying the function parameters and devolve types while describing the existing JavaScript API. When working with JavaScript libraries like jQuery, this is quite helpful. Without having to go back and read the documentation, an interface may provide you a clear understanding of what to expect from a function and what it will return.
+
+`How is an interface different from a type alias?`
+
+Type aliases can act like interfaces; however, there are some subtle differences. The key distinction is that a type alias cannot be reopened to add new properties whereas an interface is always extendable. Also, you can only describe a union or tuple using a type alias.
+</details>
+
+<details>
+<summary>Other ways to use interfaces in Typescript</summary>
+
+`Create indexable types`
+
+Indexable types have an index signature that describes the type you can use to index into the object, along with the corresponding return types when indexing.
+
+
+`Describe a JavaScript API using an interface`
+
+We can use an interface to describe existing JavaScript APIs and clarify function parameters and return types. The interface provides you with a clear understanding of what an API is expecting and what it will return.
+</details>
+
+<details>
+<summary>Lab - Use interfaces in TypeScript</summary>
+
+```typescript
+/* Module 3: Implement interfaces in TypeScript
+   Lab Start  */
+```
+
+```typescript
+/*  EXERCISE 1
+    TODO: Declare the Loan interface. */
+interface Loan {
+    principal: number,
+    interestRate: number
+}
+
+/*  TODO: Declare the ConventionalLoan interface. */
+
+interface ConventionalLoan extends Loan {
+    months: number
+}
+```
+```typescript
+/*Exercise 2 - Implement the interfaces */
+
+/*  TODO: Update the calculateInterestOnlyLoanPayment function. */
+
+function calculateInterestOnlyLoanPayment(loanTerms : Loan): string {
+    // Calculates the monthly payment of an interest only loan
+    let interest = loanTerms.interestRate / 1200; // Calculates the Monthly Interest Rate of the loan
+    let payment;
+    payment = loanTerms.principal * interest;
+    return 'The interest only loan payment is ' + payment.toFixed(2);
+}
+
+/*  TODO: Update the calculateConventionalLoanPayment function. */
+
+function calculateConventionalLoanPayment(loanTerms: ConventionalLoan): string {
+    // Calculates the monthly payment of a conventional loan
+    let interest: number = loanTerms.interestRate / 1200; // Calculates the Monthly Interest Rate of the loan
+    let payment: number;
+    payment = loanTerms.principal * interest / (1 - (Math.pow(1 / (1 + interest), loanTerms.months)));
+    return 'The conventional loan payment is ' + payment.toFixed(2);
+}
+
+let interestOnlyPayment = calculateInterestOnlyLoanPayment({principal: 30000, interestRate: 5});
+let conventionalPayment = calculateConventionalLoanPayment({principal: 30000, interestRate: 5, months: 180});
+
+console.log(interestOnlyPayment);     //* Returns "The interest only loan payment is 125.00" 
+console.log(conventionalPayment);     //* Returns "The conventional loan payment is 237.24" 
+```
+</details>
+
+
+- [x] 2. ✨Complete your 4th [**Core Challenge**](https://corecode.notion.site/Earn-your-SCRUM-certificate-8d9d0d40abaa4ee18c77c5a2cc1929b8). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+
