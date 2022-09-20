@@ -98,4 +98,4 @@ If there are no compiler errors, the `tsc` command generates a JavaScript file n
 
 If the compiler finds errors in the code, it displays them in the command window. Fix the errors in the TypeScript file, and then rerun the `tsc` command.
 
--[ ] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+- [x] 3. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
