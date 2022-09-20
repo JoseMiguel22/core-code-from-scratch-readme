@@ -8,7 +8,7 @@
 
 
 - [x] 1. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
-- [x] 2. [Readme - OOP](./exercises/e01/desc) exercise
+- [x] 2. [Readme - OOP](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/OOP%20glossary.md) glossary
 
 ## Week challenges (Tuesday) 💻
 
