@@ -20,8 +20,8 @@
 |- Week 6 : [Typescript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%206.md)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
 |- Week 7 : [Typescript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%207.md)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
 |- Week 8 : [Typescript](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%208.md)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
-|- Week 9 : [Typescript & Pause Day](src/technologies/2022/week09)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
-|- Week 10 : [End Of Month & React](src/technologies/2022/week10)|![physics](https://user-images.githubusercontent.com/108826299/182278215-97413057-a1c3-413d-8ab1-9e61a2286e39.png)|
+|- Week 9 : [Typescript & Pause Day](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%209.md)|![typescript_original_logo_icon_146317](https://user-images.githubusercontent.com/108826299/182275149-5ac9a4c2-279a-4754-89f7-2d86eee941a8.png)|
+|- Week 10 : [End Of Month & React](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2010.md)|![physics](https://user-images.githubusercontent.com/108826299/182278215-97413057-a1c3-413d-8ab1-9e61a2286e39.png)|
 |- Week 11 : [Node](src/technologies/2022/week11)|![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)|
 |- Week 12 : [Node / Database](src/technologies/2022/week12)|![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)|
 |- Week 13 : [Pause Day & S.O.L.I.D](src/technologies/2022/week13)||
