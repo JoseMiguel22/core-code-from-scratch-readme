@@ -288,8 +288,118 @@ console.log(myLoan); //"85.61"
 </details>
 
 
-- [ ] 2. Read [Abstract Classes](https://sbcode.net/typescript/abstract_classes/)
-- [ ] 3. Watch [Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=Lnqmde9LP74) video
+- [x] 2. Read [Abstract Classes](https://sbcode.net/typescript/abstract_classes/)
+
+Abstract classes are base classes from which other classes can be derived. It may not be formatted directly. Unlike interfaces, abstract classes can contain implementation details of their elements. The abstract keyword is used to define abstract classes and abstract functions within an abstract class.
+ 
+Abstract methods within an abstract class have no implementation and must be applied to the derived class. The structure of abstract functions is similar to that of interface functions, in that they both define the function's signature without its body (the code inside the function). However, abstract methods must be preceded by the abstract keyword, and can optionally contain access modifiers.
+
+Note: 
+
+- An abstract class cannot be directly instantiated, instead it has to be used by inheriting from that class.
+
+- The abstract class cannot be accessed directly by the child classes, they are the ones that have to provide the functionality.
+
+`Examples:`
+
+```typescript
+//Example 1
+
+abstract class Animal {
+    abstract name: string
+    age: number
+
+    constructor(age: number) {
+        //this.name = name // this must now be assigned in the derived class instead
+        this.age = age
+    }
+
+    feed(food: string, amount: number): void {
+        console.log(
+            'Feeding ' +
+                this.name +
+                ' the ' +
+                this.constructor.name +
+                ' ' +
+                amount +
+                ' kg of ' +
+                food
+        )
+    }
+}
+
+class Cat extends Animal {
+    name: string
+    constructor(name: string, age: number) {
+        super(age)
+        this.name = name
+    }
+}
+
+class Dog extends Animal {
+    name: string
+    constructor(name: string, age: number) {
+        super(age)
+        this.name = name
+    }
+}
+
+const CAT = new Cat('Cosmo', 8)
+const DOG = new Dog('Rusty', 12)
+CAT.feed('Fish', 0.1)
+DOG.feed('Beef', 0.25)
+```
+```typescript
+//Example 2
+
+abstract class Department {
+
+    constructor(public name: string) {
+    }
+
+    printName(): void {
+        console.log("Department name: " + this.name);
+    }
+
+    abstract printMeeting(): void;  // must be applied to derived classes
+}
+
+class AccountingDepartment extends Department {
+
+    constructor() {
+        // Constructor functions within derived classes must call
+        // super()
+        super("Accounting and Auditing");
+    }
+
+    printMeeting(): void {
+        console.log("The Accounting Department meets each Monday at 10am.");
+    }
+
+    generateReports(): void {
+        console.log("Generating accounting reports...");
+    }
+}
+
+let department: Department; //It is allowed to create a reference to an abstract type.
+department = new Department(); // Error, cannot instantiate an abstract class
+department = new AccountingDepartment(); // Create a copy of a non-abstract subclass and assign it to an allowed variable
+department.printName();
+department.printMeeting();
+department.generateReports(); //Error, function does not exist in abstract type declaration
+```
+
+- [x] 3. Watch [Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=Lnqmde9LP74) video
+
+| abstract class | Interface |
+| ------------- | ------------- |
+| The abstract keyword is used to create an abstract class and can be used with methods.  | The interface keyword is used to create an interface, but cannot be used with methods. |
+| A class can extend only one abstract class.  | A class can implement more than one interface.  |
+| An abstract class can provide the implementation of an interface.| An interface cannot provide the implementation of an abstract class. |
+| You can have methods with implementations.|Provides an absolute abstraction and cannot have method implementations.|
+| You can have public, private, static, and protected access modifiers.|Methods are implicitly public and abstract in the Java interface.|
+|Does not support multiple inheritance.|It supports multiple inheritance.|
+|It is ideal for code reuse and evolution perspective|It is ideal for the type declaration.|
 
 ## Week challenges (Wednesday) 💻
 
