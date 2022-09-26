@@ -405,11 +405,71 @@ department.generateReports(); //Error, function does not exist in abstract type 
 
 ## Week challenges (Wednesday) 💻
 
-- [ ] 1. [Make the Deadfish Swim](./exercises/e01/desc) exercise, using `Typescript`
-- [ ] 2. [Duplicate Encoder](./exercises/e03/desc) exercise, using `Typescript`
+- [x] 1. [Make the Deadfish Swim](./exercises/e01/desc) exercise, using `Typescript`
+
+`Solution`
+```typescript
+export function parse(data: string): number[] {
+    var result: number[] = []
+    var current = 0
+
+    data.split('').map((c) => {
+      switch (c) {
+        case 'i': current++; break
+        case 'd': current--; break
+        case 's': current = current ** 2; break
+        case 'o': result.push(current); break
+      }
+    })
+
+    return result
+}
+```
+
+- [x] 2. [Duplicate Encoder](./exercises/e03/desc) exercise, using `Typescript`
+
+`Solution`
+```typescript
+export function duplicateEncode(word: string) {
+  return word
+    .toLowerCase()
+    .split('')
+    .map((a: string, i: number, w: string[]) => {
+      return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')';
+    })
+    .join('');
+}
+```
+
 - [ ] 3. [Find The Odd Int](./exercises/e04/desc) exercise, using `Typescript`
+
+`Solution`
+```typescript
+export const findOdd = (xs: number[]): number => {
+  return (
+    xs.find(
+      (x: number, i: number, a: number[]) =>
+        a.filter((y: number) => y === x).length % 2 === 1
+    ) || -1
+  );
+}
+```
+
 - [ ] 4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
 
+`Solution`
+```typescript
+export function inArray(a1: string[], a2: string[]): string[] {
+  return a1
+      .filter((aWord: string) => {
+        return (
+          a2.find((bWord: string) => bWord.indexOf(aWord) != -1) != undefined
+        );
+      })
+      .sort();
+  }
+
+```
 ## Week challenges (Thursday) 💻
 
 - [ ] 1. [Define generics in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/) guided exercise, using `Typescript`
