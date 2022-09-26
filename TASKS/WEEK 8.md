@@ -441,7 +441,7 @@ export function duplicateEncode(word: string) {
 }
 ```
 
-- [ ] 3. [Find The Odd Int](./exercises/e04/desc) exercise, using `Typescript`
+- [x] 3. [Find The Odd Int](./exercises/e04/desc) exercise, using `Typescript`
 
 `Solution`
 ```typescript
@@ -455,7 +455,7 @@ export const findOdd = (xs: number[]): number => {
 }
 ```
 
-- [ ] 4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
+- [x] 4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
 
 `Solution`
 ```typescript
