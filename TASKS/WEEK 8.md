@@ -300,7 +300,8 @@ Note:
 
 - The abstract class cannot be accessed directly by the child classes, they are the ones that have to provide the functionality.
 
-`Examples:`
+<details>
+<summary>Examples</summary>
 
 ```typescript
 //Example 1
@@ -388,6 +389,7 @@ department.printName();
 department.printMeeting();
 department.generateReports(); //Error, function does not exist in abstract type declaration
 ```
+</details>
 
 - [x] 3. Watch [Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=Lnqmde9LP74) video
 
