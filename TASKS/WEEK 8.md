@@ -476,18 +476,251 @@ export function inArray(a1: string[], a2: string[]): string[] {
 
 <details>
 <summary>Introduction to generics</summary>
+
+Generics are code templates that you can define and reuse throughout your codebase. They provide a way to tell functions, classes, or interfaces what type you want to use when you call it.
+
+`Create generic functions when your code is a function or class that:`
+
+- Works with a variety of data types.
+
+- Uses that data type in several places.
+
+`Generics can:`
+
+- Provide more flexibility when working with types.
+
+- Enable code reuse.
+
+- Reduce the need to use the `any` type.
+
+Example of why to use generics:
+
+The `getArray` function generates an array of items of any type.
+
+```typescript
+function getArray(items : any[]) : any[] {
+    return new Array().concat(items);
+}
+```
+Then, the numberArray variable is declared by calling the getArray function, passing to it an array of numbers, and the stringArray variable is declared with an array of strings. However, because the any type is used, there's nothing preventing the code from pushing a string to the numberArray or a number to the stringArray.
+
+```typescript
+let numberArray = getArray([5, 10, 15, 20]);
+let stringArray = getArray(['Cats', 'Dogs', 'Birds']);
+numberArray.push(25);                       // OK
+stringArray.push('Rabbits');                // OK
+numberArray.push('This is not a number');   // OK
+stringArray.push(30);                       // OK
+console.log(numberArray);                   // [5, 10, 15, 20, 25, "This is not a number"]
+console.log(stringArray);                   // ["Cats", "Dogs", "Birds", "Rabbits", 30]
+```
+What if you want to determine the type of the values that the array will contain when you call the function and then have TypeScript do the work of type checking the values that you pass to it to ensure they are of that type? This is where generics come into play.
+
+This example rewrites the `getArray` function using generics. It can now accept any type that you specify when calling the function.
+
+```typescript
+function getArray<T>(items : T[]) : T[] {
+    return new Array<T>().concat(items);
+}
+```
+
+Generics define one or more type variables to identify the type or types that you will pass to the component, enclosed in angle brackets (`< >`).
+
+In the example above, the type variable in the function is called `<T>`. T is a commonly used name for a generic.
+
+After you specify the type variable, we can use it in place of the type in parameters, the return type, or anywhere else in the function that we would add a type annotation.
+
+The type variable `T` can be used wherever the type annotation is needed. In the getArray function, it is used to specify the type for the items parameter, the function return type, and to return a new Array of items.
+
+To call the function and pass a type to it, append `<type>` to the function name. For example, `getArray<number>` instructs the function to only accept an array of number values and return an array of number values.
+
+Because the type has been specified as a number, TypeScript will expect that number values will be passed to the function and will raise an error if it's something else.
+
+`Note: If you omit the type variable when calling the function, TypeScript will infer the type. However, this only works with simple data. Passing in arrays or objects infers the type of any and eliminates type checks.`
+
+`Using multiple type variables`
+
+We are not limited to using a single type variable in ours generic components.
+
+For example, the `identity` function accepts two parameters, `value` and `message`, and returns the `value` parameter. You can use two generics, `T` and `U`, to assign different types to each parameter and to the return type. The variable `returnNumber` is initialized by calling the `identity` function with `<number, string>` as the types for the `value` and `message` arguments, `returnString` is initialized by calling it with `<string, string>`, and `returnBoolean` is initialized by calling it with `<boolean, string>`. When using these variables, TypeScript can type check the values and return a compile-time error if there is a conflict.
+
+```typescript
+function identity<T, U> (value: T, message: U) : T {
+    console.log(message);
+    return value
+}
+
+let returnNumber = identity<number, string>(100, 'Hello!');
+let returnString = identity<string, string>('100', 'Hola!');
+let returnBoolean = identity<boolean, string>(true, 'Bonjour!');
+
+returnNumber = returnNumber * 100;   // OK
+returnString = returnString * 100;   // Error: Type 'number' not assignable to type 'string'
+returnBoolean = returnBoolean * 100; // Error: Type 'number' not assignable to type 'boolean'
+```
 </details>
 
 <details>
 <summary>Use the methods and properties of a generic type</summary>
+
+When using type variables to create generic components, you may only use the properties and methods of objects that are available for every type. This prevents errors from occurring when you try to perform an operation on a parameter value that is incompatible with the type that's being passed to it.
+
+`Using generic constraints to limit types`
+
+`Generic constraint:`
+
+There are several ways to do this depending on the type variable. One way is to declare a custom type as a tuple and then extend the type variable with the custom type. The following example declares ValidTypes as a tuple with a string and a number. Then, it extends T with the new type. Now, you can only pass number or string types to the type variable.
+
+```typescript
+type ValidTypes = string | number;
+
+function identity<T extends ValidTypes, U> (value: T, message: U) : T {
+    let result: T = value + value;    // Error
+    console.log(message);
+    return result
+}
+
+let returnNumber = identity<number, string>(100, 'Hello!');      // OK
+let returnString = identity<string, string>('100', 'Hola!');     // OK
+let returnBoolean = identity<boolean, string>(true, 'Bonjour!'); // Error: Type 'boolean' does not satisfy the constraint 'ValidTypes'.
+```
+
+`Using type guards with generics`
+
+You'll notice that TypeScript still raises an issue with the value + value expression in the identity function. But now you know that only number and string types can be passed to the function.
+
+We can use the typeof type guard in an if block to check the type of the value parameter before performing an operation. TypeScript can determine from the if statement if the operation will work with the values provided within the block.
+
+```typescript
+type ValidTypes = string | number;
+function identity<T extends ValidTypes, U> (value: T, message: U) {   // Return type is inferred
+    let result: ValidTypes = '';
+    let typeValue: string = typeof value;
+
+    if (typeof value === 'number') {           // Is it a number?
+        result = value + value;                // OK
+    } else if (typeof value === 'string') {    // Is it a string?
+        result = value + value;                // OK
+    }
+
+    console.log(`The message is ${message} and the function returns a ${typeValue} value of ${result}`);
+
+    return result
+}
+
+let numberValue = identity<number, string>(100, 'Hello');
+let stringValue = identity<string, string>('100', 'Hello');
+
+console.log(numberValue);       // Returns 200
+console.log(stringValue);       // Returns 100100
+```
+`Note: We can only use a typeof type guard to check the primitive types string, number, bigint, function, boolean, symbol, object, and undefined. To check the type of a class, use an instanceof type guard.`
+
 </details>
 
 <details>
 <summary>Implement generics with custom types and classes</summary>
+
+The most powerful uses of generics come from uses with classes and custom types.
+
+This example has a base class called `Car` and two subclasses, `ElectricCar` and `Truck`. The `accelerate` function accepts a generic instance of `Car` and then returns it. By telling the `accelerate` function that T must extend `Car`, TypeScript knows which functions and properties you can call within the function. The generic also returns the specific type of car (`ElectricCar` or `Truck`) passed into the function, rather than a non-specific `Car` object.
+
+```typescript
+class Car {
+    make: string = 'Generic Car';
+    doors: number = 4;
+}
+class ElectricCar extends Car {
+    make = 'Electric Car';
+    doors = 4
+}
+class Truck extends Car {
+    make = 'Truck';
+    doors = 2
+}
+function accelerate<T extends Car> (car: T): T {
+    console.log(`All ${car.doors} doors are closed.`);
+    console.log(`The ${car.make} is now accelerating!`)
+    return car
+}
+
+let myElectricCar = new ElectricCar;
+accelerate<ElectricCar>(myElectricCar);
+let myTruck = new Truck;
+accelerate<Truck>(myTruck);
+```
+The output to the console is:
+
+```typescript
+"All 4 doors are closed."
+"The Electric Car is now accelerating!"
+"All 2 doors are closed."
+"The Truck is now accelerating!"
+```
+
+`Note: Generic constraints can not only be applied to native types, but also to classes. We can do this by defining an interface and then using the extend keyword with the type variable to extend it`
+
 </details>
 
 <details>
 <summary>Lab - Declare a class by using a generic</summary>
+
+```typescript
+/*  Module 6: DGenerics in TypeScript
+    Lab Start */
+```
+```typescript
+/*  DataStore is a utility function that can store up to 10 string values in an array. 
+    Rewrite the DataStore class so the array can store items of any type.
+
+    TODO: Add and apply a type variable. */
+class DataStore<T> {
+
+    private _data: Array<T> = new Array(10);
+    
+    AddOrUpdate(index: number, item: T) {
+        if(index >=0 && index <10) {
+            this._data[index] = item;
+        } else {
+            alert('Index is greater than 10')
+        }
+    }
+    GetData(index: number) {
+        if(index >=0 && index < 10) {
+            return this._data[index];
+        } else {
+            return
+        }
+    }
+}
+
+let cities = new DataStore();
+
+cities.AddOrUpdate(0, "Mumbai");
+cities.AddOrUpdate(1, "Chicago");
+cities.AddOrUpdate(11, "London");       // item not added
+
+console.log(cities.GetData(1));         // returns 'Chicago'
+console.log(cities.GetData(12));        // returns 'undefined'
+
+// TODO Test items as numbers.
+let empIDs = new DataStore<number>();
+empIDs.AddOrUpdate(0,50)
+empIDs.AddOrUpdate(1, 65);
+empIDs.AddOrUpdate(2, 89);
+console.log(empIDs.GetData(0)); 
+// TODO Test items as objects.
+type Pets = {
+  name: string;
+  breed: string;
+  age: number
+}
+
+let pets = new DataStore<Pets>();
+pets.AddOrUpdate(0, { name: 'Rex', breed: 'Golden Retriever', age: 5})
+pets.AddOrUpdate(1, { name: 'Sparky', breed: 'Jack Russell Terrier', age: 3});
+console.log(pets.GetData(1)); // returns { name: 'Sparky', breed: 'Jack Russell Terrier', age: 3 }
+```
 </details>
 
 
