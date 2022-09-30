@@ -472,7 +472,7 @@ export function inArray(a1: string[], a2: string[]): string[] {
 ```
 ## Week challenges (Thursday) 💻
 
-- [ ] 1. [Define generics in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/) guided exercise, using `Typescript`
+- [x] 1. [Define generics in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/) guided exercise, using `Typescript`
 
 <details>
 <summary>Introduction to generics</summary>
@@ -724,5 +724,8 @@ console.log(pets.GetData(1)); // returns { name: 'Sparky', breed: 'Jack Russell 
 </details>
 
 
-- [ ] 2. [Generics](./exercises/e00/desc) exercise, using `Typescript`
+- [x] 2. `Generics` exercise, using `Typescript`
+
+[Solución]()
+
 - [x] 3. ✨ 5th Core Challenge, update your resume [here](https://corecode.notion.site/CV-or-Resume-Boost-9092fff9f9cf4944a7c1717b11b09223)
