@@ -4,27 +4,6 @@
 
 <p>Learn about Node.JS and its capabilities</p>
 
-## Week subtopics
-
-- What is Node.JS?
-- Why does Node.JS exist?
-- What is Javascript runtime?
-- What are the differences between Node.JS and a web browser?
-- Node.JS module system
-- Node.JS capabilities
-- Client-Server Model
-- What is an API?
-- Express
-  - Express App
-  - Request modifiers (middlewares)
-  - Request Object
-  - Response Object
-  - Next function
-- Postman
-- Endpoint Routes
-- Express.JS Middlewares
-- Request Handlers
-
 ## Week Challenges (Monday) 💻
 
 1. Time to catch up ⏱️ or play with the React project
@@ -33,9 +12,21 @@
 
 - [ ] 1. Node.JS Core Understanding Learning Exercise 🧠
 
-1. What is Node.JS?
-2. What problem does Node.JS solve?
-3. What is the V8 Javascript Engine?
+1. `What is Node.JS?`
+
+ Node.js is a JavaScript runtime environment, it is worth mentioning that this real-time runtime environment includes everything that is needed to run a program written in JavaScript outside of the browser.
+
+2. `What problem does Node.JS solve?`
+
+Node.js solves problems of scalability and access in real time.
+
+Node.js improves server access concurrency through its Event Loop. Each user that tries to connect to our website will not generate a new thread, but will trigger a new event within the Event Loop.
+
+3. `What is the V8 Javascript Engine?`
+
+Chrome V8 is the JavaScript engine that powers Google Chrome. It's what takes our JavaScript code and runs it while you're browsing with Chrome. V8 provides the runtime environment in which JavaScript runs, the browser provides the DOM, and the other web platform APIs.
+
+
 4. Is Node.JS really necessary in the Development ecosystem?
 5. What is the difference between Node.JS and any other browser?
 6. What is NVM and Why is it useful for Node.JS developers?
