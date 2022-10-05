@@ -14,22 +14,27 @@
 
 1. `What is Node.JS?`
 
- Node.js is a JavaScript runtime environment, it is worth mentioning that this real-time runtime environment includes everything that is needed to run a program written in JavaScript outside of the browser.
+ Node.js is an open source, cross-platform runtime environment used to run web applications outside of the browser.
+
+It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services.
 
 2. `What problem does Node.JS solve?`
 
-Node.js solves problems of scalability and access in real time.
-
-Node.js improves server access concurrency through its Event Loop. Each user that tries to connect to our website will not generate a new thread, but will trigger a new event within the Event Loop.
+Node.js is an excellent solution for developing microservices and creating easy-to-use APIs to connect them. In particular, the Node.js repository features Express and Koa frameworks, which make it easy to mount several server instances for each microservice and design routing addresses for them.
 
 3. `What is the V8 Javascript Engine?`
 
-Chrome V8 is the JavaScript engine that powers Google Chrome. It's what takes our JavaScript code and runs it while you're browsing with Chrome. V8 provides the runtime environment in which JavaScript runs, the browser provides the DOM, and the other web platform APIs.
+Chrome V8 is an engine that runs JavaScript code. JavaScript was initially written so that it could be executed by web browsers. Chrome V8, or simply V8, can run JavaScript code both inside and outside of a browser.
 
 
-4. Is Node.JS really necessary in the Development ecosystem?
-5. What is the difference between Node.JS and any other browser?
-6. What is NVM and Why is it useful for Node.JS developers?
+4. `Is Node.JS really necessary in the Development ecosystem?`
+
+
+5. `What is the difference between Node.JS and any other browser?`
+
+
+
+6. `What is NVM and Why is it useful for Node.JS developers?`
 
 
 - [ ] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
