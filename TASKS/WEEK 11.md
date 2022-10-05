@@ -31,10 +31,21 @@
 
 ## Week Challenges (Tuesday) 🐣
 
-1. [Node.JS Core Understanding](./exercises/e00/NODE-CORE.md) Learning Exercise 🧠
-2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
-3. [Node.JS Module System](./exercises/e00/NODE-MS-PRACTICE.md) Practice 💻
-4. [Client-Server Model](./exercises/e00/CLIENT-SERVER.md) Learning Exercise 🧠
+- [ ] 1. Node.JS Core Understanding Learning Exercise 🧠
+
+1. What is Node.JS?
+2. What problem does Node.JS solve?
+3. What is the V8 Javascript Engine?
+4. Is Node.JS really necessary in the Development ecosystem?
+5. What is the difference between Node.JS and any other browser?
+6. What is NVM and Why is it useful for Node.JS developers?
+
+
+- [ ] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
+
+- [ ] 3. [Node.JS Module System](./exercises/e00/NODE-MS-PRACTICE.md) Practice 💻
+
+- [ ] 4. [Client-Server Model](./exercises/e00/CLIENT-SERVER.md) Learning Exercise 🧠
 
 ## Week Challenges (Wednesday) 🐤
 
