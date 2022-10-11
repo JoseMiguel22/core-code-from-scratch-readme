@@ -89,7 +89,7 @@ NVM allows users to:
 - Set up aliases to switch between different downloaded versions of Node.js with ease.
 </details>
 
-- [ ] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
+- [x] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
 
 <details>
 <summary>1. What is a Javascript Module?</summary>
@@ -149,28 +149,18 @@ Node.js includes three types of modules:
 
 
 
+- [ ] 3. Node.JS Module System Practice 💻
 
-
-
-
-
-
-- [ ] 3. [Node.JS Module System](./exercises/e00/NODE-MS-PRACTICE.md) Practice 💻
-
-- [ ] 4. [Client-Server Model](./exercises/e00/CLIENT-SERVER.md) Learning Exercise 🧠
+- [ ] 4. Client-Server Model Learning Exercise 🧠
 
 ## Week Challenges (Wednesday) 🐤
 
-1. [APIs Core Understanding](./exercises/e01/APIS-CORE.md) Learning Exercise 🧠
-2. [From JSON to REST](./exercises/e01/JSON-REST.md) Learning Exercise 🧠
-3. [REST API Clients](./exercises/e01/REST-CLIENTS.md) Learning Exercise 🧠
-4. [Express.JS Core Understanding](./exercises/e01/EXPRESS-CORE.md) Learning Exercise 🧠
+- [ ] 1. APIs Core Understanding Learning Exercise 🧠
+- [ ] 2. From JSON to REST Learning Exercise 🧠
+- [ ] 3. REST API Clients Learning Exercise 🧠
+- [ ] 4. Express.JS Core Understanding Learning Exercise 🧠
 
 ## Week challenges (Thursday) 💻
 
-1. [Forrest Gump Ping-Pong API 🏓](./exercises/e02/API-1.md)
-2. [Delayed Response API ⏳](./exercises/e03/API-2.md)
-
-## Week links 🔗
-
-## Session link 🔗
+- [ ] 1. Forrest Gump Ping-Pong API 🏓
+- [ ] 2. Delayed Response API ⏳
