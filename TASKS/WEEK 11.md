@@ -149,15 +149,82 @@ Node.js includes three types of modules:
 
 
 
-- [ ] 3. Node.JS Module System Practice 💻
+- [x] 3. Node.JS Module System Practice 💻
+
+[soluction](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/migjo-node) 
 
 - [ ] 4. Client-Server Model Learning Exercise 🧠
+
+1. What is a Server?
+
+El servidor es un programa que recibe una solicitud, realiza el servicio requerido y devuelve los resultados en forma de una respuesta.
+
+2. Why is a Client?
+por que el cliente hace referencia a un demandante o solicitante de servicios.
+
+3. Is a server just another physical computer?
+   - Why do we refer to a certain class of applications as Servers?
+   - What is the difference?
+4. Is there any similarity between human communication and the client-server model?
+5. Is the client-server model applicable only to the Web?
+   - Can you mention any other example of this model outside the Web?
+
 
 ## Week Challenges (Wednesday) 🐤
 
 - [ ] 1. APIs Core Understanding Learning Exercise 🧠
+1. What is an API?
+
+API significa “interfaz de programación de aplicaciones”. Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. 
+
+2. What is a Protocol?
+
+En las redes, un protocolo es un conjunto de reglas para formatear y procesar datos. Los protocolos de red son como un lengua franca para los ordenadores. Los ordenadores de una red pueden utilizar software y hardware muy diferentes; sin embargo, el uso de protocolos les permite comunicarse entre sí.
+
+3. Is the term API only applicable to the communication of programs over the Internet?
+
+No, since APIs provide a way for one application to interact with another. regardless of whether or not they are connected to the web.
+
+4. Why is structured communication between two programs important?
+
+It is important that they maintain communication because this gives the programs a variety of forms and functionalities for their proper functioning and to make them dynamic and interactive.
+
+   - Do we humans use APIs when communicating without technology?
+
+ We could say yes, because the APIs fulfill the function of being an intermediary between the client and the server, in this case an API to communicate without technology could be to communicate through family letters, our API would be the postman since he would do the delivery of the letters and thus maintain communication.
+
+5. Is an API just another program or a standard?
+
+Las API son estándares (sirve de patrón, modelo o punto de referencia) para el intercambio de datos de aplicaciones.
+
+6. Do you know any API? Can you list at least 5 examples of APIs?
+
+- Google Maps
+- Log-in Using XYZ
+- Weather Apps
+- Twitter Bots
+- Amazon - Alexa
+
 - [ ] 2. From JSON to REST Learning Exercise 🧠
+1. What is HTTP?
+2. What is JSON?
+   - Is JSON the same as a plain Javascript object?
+3. What is REST?
+   - Is REST a programming language, framework, technology, or architecture pattern?
+4. What is a Resource in REST?
+   - What is a resource identifier?
+5. What is an HTTP method?
+   - What HTTP methods does REST use within its architecture rules?
+   - Why do we use HTTP methods in REST and how do they relate to resources?
+6. Is REST the same as HTTP?
+
 - [ ] 3. REST API Clients Learning Exercise 🧠
+1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide
+2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs
+3. Answer the questions:
+   - Postman only works with REST APIs?
+   - Is there an alternative to Postman?
+
 - [ ] 4. Express.JS Core Understanding Learning Exercise 🧠
 
 ## Week challenges (Thursday) 💻
