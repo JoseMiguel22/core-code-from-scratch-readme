@@ -172,7 +172,7 @@ por que el cliente hace referencia a un demandante o solicitante de servicios.
 
 ## Week Challenges (Wednesday) 🐤
 
-- [ ] 1. APIs Core Understanding Learning Exercise 🧠
+- [x] 1. APIs Core Understanding Learning Exercise 🧠
 1. What is an API?
 
 API significa “interfaz de programación de aplicaciones”. Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. 
@@ -205,22 +205,68 @@ Las API son estándares (sirve de patrón, modelo o punto de referencia) para el
 - Twitter Bots
 - Amazon - Alexa
 
-- [ ] 2. From JSON to REST Learning Exercise 🧠
+- [x] 2. From JSON to REST Learning Exercise 🧠
 1. What is HTTP?
+
+HTTP significa Protocolo de transferencia de hipertexto. Es un conjunto de reglas definidas formalmente para la comunicación entre un cliente y un servidor.
+
 2. What is JSON?
+
+JSON stands for JavaScript Object Notation. Is a lightweight format for storing and transporting data,  is often used when data is sent from a server to a web page and is "self-describing" and easy to understand.
+
    - Is JSON the same as a plain Javascript object?
+
+The JSON format is syntactically identical in its simplicity to the code to create objects in JavaScript, but they are not the same. The JSON format is just text that facilitates the exchange of data between devices such as Clients and Servers.
+
 3. What is REST?
+
+REST significa Representational State Transfer, es cualquier interfaz entre sistemas que use HTTP para obtener datos o generar operaciones sobre esos datos en todos los formatos posibles, como XML y JSON.
+
    - Is REST a programming language, framework, technology, or architecture pattern?
+
+REST is an architectural pattern, porque describe una interfaz uniforme entre componentes separados físicamente.
+
 4. What is a Resource in REST?
+
+ Es cualquier cosa a la que se accede mediante la URL que proporcionamos(La URL no es un recurso, es una etiqueta que identifica el recurso, es si se quiere, el nombre del recurso).
+
    - What is a resource identifier?
+
+Es una cadena de caracteres que identifica los recursos.
+
 5. What is an HTTP method?
+
+ Es de petición para indicar la acción que se desea realizar para un recurso determinado.
+
    - What HTTP methods does REST use within its architecture rules?
+
+GET recupera o obtiene una representación del recurso en el URI especificado. 
+
+POST crea un nuevo recurso en el URI especificado.
+
+PUT crea o reemplaza el recurso en el URI especificado. 
+
+PATCH realiza una actualización parcial de un recurso
+
+DELETE elimina el recurso en el URI especificado.
+
+HEAD: Este método se utilizar para obtener información sobre un determinado recurso sin retornar el registro.
+
    - Why do we use HTTP methods in REST and how do they relate to resources?
+
+    Porque mediante los métodos le indicamos al servidor la forma en que debe de tratar una petición especifica  definiendo la acción que se realizará sobre un determinado recurso.
+
 6. Is REST the same as HTTP?
 
+No son lo mismo, REST se refiere a un conjunto de reglas que, cuando se siguen nos permiten crear una aplicación distribuida que tiene un conjunto específico de restricciones deseables, mientras que HTTP es un protocolo bien definido utilizado para la comunicación, generalmente utilizado para comunicarse con recursos de Internet o cualquier aplicación con un cliente de navegador web.
+
+
 - [ ] 3. REST API Clients Learning Exercise 🧠
-1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide
-2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs
+
+- [x] 1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide
+
+- [x] 2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs
+
 3. Answer the questions:
    - Postman only works with REST APIs?
    - Is there an alternative to Postman?
