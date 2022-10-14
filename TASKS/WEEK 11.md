@@ -254,7 +254,7 @@ HEAD: Este método se utilizar para obtener información sobre un determinado re
 
    - Why do we use HTTP methods in REST and how do they relate to resources?
 
-    Porque mediante los métodos le indicamos al servidor la forma en que debe de tratar una petición especifica  definiendo la acción que se realizará sobre un determinado recurso.
+ Porque mediante los métodos le indicamos al servidor la forma en que debe de tratar una petición especifica  definiendo la acción que se realizará sobre un determinado recurso.
 
 6. Is REST the same as HTTP?
 
