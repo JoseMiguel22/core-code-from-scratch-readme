@@ -154,124 +154,172 @@ Node.js includes three types of modules:
 [soluction](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/migjo-node) 
 
 - [ ] 4. Client-Server Model Learning Exercise 🧠
+<details>
+<summary>1. What is a Server?</summary>
+The server is a program that receives a request, performs the required service, and returns the results in the form of a response.
+</details>
 
-1. What is a Server?
+<details>
+<summary>2. Why is a Client?</summary>
+because the client refers to a plaintiff or applicant for services.
+</details>
 
-El servidor es un programa que recibe una solicitud, realiza el servicio requerido y devuelve los resultados en forma de una respuesta.
+<details>
+<summary>3. Is a server just another physical computer?</summary>
 
-2. Why is a Client?
-por que el cliente hace referencia a un demandante o solicitante de servicios.
-
-3. Is a server just another physical computer?
    - Why do we refer to a certain class of applications as Servers?
+
    - What is the difference?
-4. Is there any similarity between human communication and the client-server model?
-5. Is the client-server model applicable only to the Web?
+</details>
+
+<details>
+<summary>4. Is there any similarity between human communication and the client-server model?</summary>
+</details>
+
+<details>
+<summary>5. Is the client-server model applicable only to the Web?</summary>
    - Can you mention any other example of this model outside the Web?
 
+</details>
 
 ## Week Challenges (Wednesday) 🐤
 
 - [x] 1. APIs Core Understanding Learning Exercise 🧠
-1. What is an API?
 
-API significa “interfaz de programación de aplicaciones”. Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. 
+<details>
+<summary>1. What is an API?</summary>
 
-2. What is a Protocol?
+API stands for “application programming interface”. APIs are mechanisms that allow two software components to communicate with each other using a set of definitions and protocols.
+</details>
 
-En las redes, un protocolo es un conjunto de reglas para formatear y procesar datos. Los protocolos de red son como un lengua franca para los ordenadores. Los ordenadores de una red pueden utilizar software y hardware muy diferentes; sin embargo, el uso de protocolos les permite comunicarse entre sí.
+<details>
+<summary>2. What is a Protocol?</summary>
+ 
+ A protocol is a set of rules for formatting and processing data. Network protocols are like a lingua franca for computers. Computers on a network can use very different software and hardware; however, the use of protocols allows them to communicate with each other.
+</details>
 
-3. Is the term API only applicable to the communication of programs over the Internet?
+<details>
+<summary>3. Is the term API only applicable to the communication of programs over the Internet?</summary>
 
 No, since APIs provide a way for one application to interact with another. regardless of whether or not they are connected to the web.
+</details>
 
-4. Why is structured communication between two programs important?
+<details>
+<summary>4. Why is structured communication between two programs important?</summary>
 
 It is important that they maintain communication because this gives the programs a variety of forms and functionalities for their proper functioning and to make them dynamic and interactive.
 
    - Do we humans use APIs when communicating without technology?
 
  We could say yes, because the APIs fulfill the function of being an intermediary between the client and the server, in this case an API to communicate without technology could be to communicate through family letters, our API would be the postman since he would do the delivery of the letters and thus maintain communication.
+</details>
 
-5. Is an API just another program or a standard?
+<details>
+<summary>5. Is an API just another program or a standard?</summary>
 
-Las API son estándares (sirve de patrón, modelo o punto de referencia) para el intercambio de datos de aplicaciones.
+APIs are standards (used as a pattern, model or reference point) for the exchange of application data.
+</details>
 
-6. Do you know any API? Can you list at least 5 examples of APIs?
+<details>
+<summary>6. Do you know any API? Can you list at least 5 examples of APIs?</summary>
 
 - Google Maps
 - Log-in Using XYZ
 - Weather Apps
 - Twitter Bots
 - Amazon - Alexa
+</details>
 
 - [x] 2. From JSON to REST Learning Exercise 🧠
-1. What is HTTP?
 
-HTTP significa Protocolo de transferencia de hipertexto. Es un conjunto de reglas definidas formalmente para la comunicación entre un cliente y un servidor.
+<details>
+<summary>1. What is HTTP?</summary>
 
-2. What is JSON?
+HTTP stands for Hypertext Transfer Protocol. It is a set of formally defined rules for communication between a client and a server.
+</details>
+
+<details>
+<summary>2. What is JSON?</summary>
 
 JSON stands for JavaScript Object Notation. Is a lightweight format for storing and transporting data,  is often used when data is sent from a server to a web page and is "self-describing" and easy to understand.
 
    - Is JSON the same as a plain Javascript object?
 
 The JSON format is syntactically identical in its simplicity to the code to create objects in JavaScript, but they are not the same. The JSON format is just text that facilitates the exchange of data between devices such as Clients and Servers.
+</details>
 
-3. What is REST?
+<details>
+<summary>3. What is REST?<summary>
 
-REST significa Representational State Transfer, es cualquier interfaz entre sistemas que use HTTP para obtener datos o generar operaciones sobre esos datos en todos los formatos posibles, como XML y JSON.
+REST stands for Representational State Transfer, it is any interface between systems that uses HTTP to obtain data or perform operations on that data in all possible formats, such as XML and JSON.
 
    - Is REST a programming language, framework, technology, or architecture pattern?
 
-REST is an architectural pattern, porque describe una interfaz uniforme entre componentes separados físicamente.
+REST is an architectural pattern, because it describes a uniform interface between physically separated components.
+</details>
 
-4. What is a Resource in REST?
+<details>
+<summary>4. What is a Resource in REST?</summary>
 
- Es cualquier cosa a la que se accede mediante la URL que proporcionamos(La URL no es un recurso, es una etiqueta que identifica el recurso, es si se quiere, el nombre del recurso).
+ It is anything that is accessed through the URL that we provide (The URL is not a resource, it is a label that identifies the resource, it is if you will, the name of the resource).
 
    - What is a resource identifier?
 
-Es una cadena de caracteres que identifica los recursos.
+Uniform Resource Identifier (URI) it is a string of characters that identifies the resources.
+</details>
 
-5. What is an HTTP method?
+<details>
+<summary>5. What is an HTTP method?</summary>
 
- Es de petición para indicar la acción que se desea realizar para un recurso determinado.
+ It is a request to indicate the action that you want to perform for a given resource.
 
    - What HTTP methods does REST use within its architecture rules?
 
-GET recupera o obtiene una representación del recurso en el URI especificado. 
+GET retrieves or gets a representation of the resource at the specified URI.
 
-POST crea un nuevo recurso en el URI especificado.
+POST creates a new resource at the specified URI.
 
-PUT crea o reemplaza el recurso en el URI especificado. 
+PUT creates or replaces the resource at the specified URI.
 
-PATCH realiza una actualización parcial de un recurso
+PATCH perform a partial update of a resource
 
-DELETE elimina el recurso en el URI especificado.
+DELETE removes the resource at the specified URI.
 
-HEAD: Este método se utilizar para obtener información sobre un determinado recurso sin retornar el registro.
+HEAD This method is used to obtain information about a given resource without returning the record.
 
    - Why do we use HTTP methods in REST and how do they relate to resources?
 
- Porque mediante los métodos le indicamos al servidor la forma en que debe de tratar una petición especifica  definiendo la acción que se realizará sobre un determinado recurso.
+ Because through the methods we indicate to the server the way in which it should treat a specific request, defining the action that will be carried out on a certain resource.
 
-6. Is REST the same as HTTP?
+ </details>
 
-No son lo mismo, REST se refiere a un conjunto de reglas que, cuando se siguen nos permiten crear una aplicación distribuida que tiene un conjunto específico de restricciones deseables, mientras que HTTP es un protocolo bien definido utilizado para la comunicación, generalmente utilizado para comunicarse con recursos de Internet o cualquier aplicación con un cliente de navegador web.
+ <details>
+<summary>6. Is REST the same as HTTP?</summary>
 
+They are not the same, REST refers to a set of rules that when followed allow us to create a distributed application that has a specific set of desirable restrictions, while HTTP is a well-defined protocol used for communication, generally used to communicate with Internet resources or any application with a web browser client.
 
-- [ ] 3. REST API Clients Learning Exercise 🧠
+</details>
+
+- [x] 3. REST API Clients Learning Exercise 🧠
 
 - [x] 1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide
 
 - [x] 2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs
 
-3. Answer the questions:
+<details>
+ <summary>3. Answer the questions:</summary>
+
    - Postman only works with REST APIs?
+
+   No, Postman supports different APIs.
+
    - Is there an alternative to Postman?
 
+   If we have a Swagger UI, Insomnia REST Client, Paw, Apigee and cURL are the most popular alternatives to Postman.
+</details>
+
 - [ ] 4. Express.JS Core Understanding Learning Exercise 🧠
+
 
 ## Week challenges (Thursday) 💻
 
