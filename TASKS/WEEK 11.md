@@ -249,7 +249,7 @@ The JSON format is syntactically identical in its simplicity to the code to crea
 </details>
 
 <details>
-<summary>3. What is REST?<summary>
+<summary>3. What is REST?</summary>
 
 REST stands for Representational State Transfer, it is any interface between systems that uses HTTP to obtain data or perform operations on that data in all possible formats, such as XML and JSON.
 
@@ -318,10 +318,75 @@ They are not the same, REST refers to a set of rules that when followed allow us
    If we have a Swagger UI, Insomnia REST Client, Paw, Apigee and cURL are the most popular alternatives to Postman.
 </details>
 
-- [ ] 4. Express.JS Core Understanding Learning Exercise 🧠
+- [x] 4. Express.JS Core Understanding Learning Exercise 🧠
 
+1. Read about the Chain of Responsibility design pattern
+
+`Chain of Responsibility` is a behavioral design pattern that allows you to pass requests along a chain of handlers.
+
+2. Express JS Hello World:
+
+[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/myapp-express)
+```javascript
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+})
+```
 
 ## Week challenges (Thursday) 💻
 
-- [ ] 1. Forrest Gump Ping-Pong API 🏓
-- [ ] 2. Delayed Response API ⏳
+- [x] 1. Forrest Gump Ping-Pong API 🏓
+
+[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_Ping-Pong)
+
+```javascript
+const express = require('express')
+const api = express()
+const port = 3001
+
+api.get('/ping', (req, res) => {
+    res.send({ message: "pong"})
+})
+
+api.get('/pong', (req, res) => {
+    res.send({ message: "ping"})
+})
+
+api.listen(port, () => {
+    console.log("API IS RUNNING\n")
+})
+
+```
+
+- [x] 2. Delayed Response API ⏳
+
+[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_delayed_response)
+
+
+```javascript
+const express = require('express')
+const api = express()
+const port = 3002
+
+api.get('/delay/:time', (req, res) => {
+  const time = req.params;
+
+  console.log(time);
+  setTimeout(() => {
+    res.send({ message: "This a delayed response"})
+  }, time);
+})
+
+
+api.listen(port, () => {
+    console.log(`listening on port ${port}`)
+})
+```
