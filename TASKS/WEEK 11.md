@@ -365,8 +365,8 @@ api.listen(port, () => {
 })
 
 ```
-![PING](https://user-images.githubusercontent.com/108826299/196018709-bdd6e41d-6fe4-4636-a722-cd5fe64f9bb7.png)
-![PONG](https://user-images.githubusercontent.com/108826299/196018713-57db2a54-cfd2-44cb-b2b3-1b8a15e01572.png)
+![PING](https://user-images.githubusercontent.com/108826299/196018980-3539c3e2-f6f0-4d51-872a-0802fc4614ec.png)
+![PONG](https://user-images.githubusercontent.com/108826299/196018985-6a287426-a310-4eb7-877f-e9b42c9ab58e.png)
 
 
 
