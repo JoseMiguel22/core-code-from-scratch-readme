@@ -4,21 +4,6 @@
 
 <p>Learn about Databases and their integration with Javascript through Node.JS</p>
 
-## Week subtopics
-
-- Database basics
-- SQLite
-- Schema Creation
-- Tables
-- Queries
-  - Select
-  - Insert
-  - Update
-  - Delete
-- Database Connection
-- Node.JS REST API
-- Final Project
-
 ## Week challenges (Monday) 💻
 
 1. Work on your project
