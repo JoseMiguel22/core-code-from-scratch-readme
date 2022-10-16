@@ -54,6 +54,7 @@ api.listen(port, () => {
 })
 ```
 
+![Age Prediction](https://user-images.githubusercontent.com/108826299/196018964-09819da7-a23f-4c64-ae3a-bd5e14aeea6e.png)
 
 - [x] 2. NSA Secrets Box API - Hacking Challenge 👨‍💻
  
