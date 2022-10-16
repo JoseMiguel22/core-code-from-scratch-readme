@@ -4,6 +4,10 @@
 
 <p>Learn about Databases and their integration with Javascript through Node.JS</p>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> f8294c4f243d66edd763122ee5594a6ca0c03da5
 ## Week challenges (Monday) 💻
 
 1. Work on your project
@@ -14,9 +18,25 @@
 
 ## Week challenges (Wednesday) 💻
 
+<<<<<<< HEAD
+1. [Age Prediction API 👶-👴](./exercises/e00/API-3.md)
+=======
 - [x] 1. [Age Prediction API 👶-👴](./exercises/e00/API-3.md)
+>>>>>>> 382fa6c5cfd599c1b39fa58b17992e08298a7bd6
 
+<<<<<<< HEAD
+
+2. NSA Secrets Box API - Hacking Challenge 👨‍💻
+
+
+
+
+
+
+## Week challenges (Thursday) 💻
+=======
 [Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/API_Age_Prediction)
+>>>>>>> 382fa6c5cfd599c1b39fa58b17992e08298a7bd6
 
 ```javascript
 const express = require('express'),
