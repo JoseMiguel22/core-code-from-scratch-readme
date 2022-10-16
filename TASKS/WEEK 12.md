@@ -55,7 +55,7 @@ api.listen(port, () => {
 ```
 - [x] 2. [NSA Secrets Box API - Hacking Challenge 👨‍💻](./exercises/e01/API-4.md)
  
-A solution for the exercise was to pass the role validation by sending a function (toString), therefore in the role, due to the nature of JavaScript, it will perform a data conversion and these would alter the behavior of the credential validation, throwing a false in the first conditional, and since the first conditional is false, the validation would return a true and thus we would obtain the credentials.
+A solution for the exercise was to pass the validation of the role by sending a function (toString), therefore in the JavaScript role it will perform a data conversion (coercion) and these would alter the behavior of the credential validation, throwing a false in the first conditional, and since the first conditional is false, the validation would return a true and thus we would obtain the credentials.
  
 ![NSA Secrets Box API 2](https://user-images.githubusercontent.com/108826299/196017716-5c96b573-268d-422b-9e95-1a184e3974e1.png)
 
