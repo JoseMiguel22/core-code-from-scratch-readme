@@ -365,6 +365,10 @@ api.listen(port, () => {
 })
 
 ```
+![PING](https://user-images.githubusercontent.com/108826299/196018709-bdd6e41d-6fe4-4636-a722-cd5fe64f9bb7.png)
+![PONG](https://user-images.githubusercontent.com/108826299/196018713-57db2a54-cfd2-44cb-b2b3-1b8a15e01572.png)
+
+
 
 - [x] 2. Delayed Response API ⏳
 
@@ -390,3 +394,4 @@ api.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
 ```
+![delay](https://user-images.githubusercontent.com/108826299/196018816-61e5cf35-900c-48f0-9888-6e9f2dda24fc.png)
