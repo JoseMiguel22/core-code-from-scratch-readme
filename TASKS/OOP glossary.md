@@ -5,6 +5,8 @@
    It is the process by which all information that is not relevant in a particular context is discarded, emphasizing some of the details or properties of the objects. Abstraction consists of capturing the characteristics and functionalities that an object performs and these are represented in classes by means of attributes and methods of said class.
 
 ```typescript
+ //EXAMPLE
+ 
    abstract class human {
  abstract getName(): string;
 
@@ -23,6 +25,8 @@
 
 
  ```typescript
+  //EXAMPLE
+  
  class clothes{ 
   
   article: string;
@@ -63,14 +67,13 @@ class GucciClothes extends clothes{
 let t_shirt = new GucciClothes("t_shirt", "XL", "black", "Vintage")
 ```
 
-
-
-
 3. `Polymorphism`
 
    It is the ability of certain languages to make it so that when sending the same message (or, in other words, calling the same method) from different objects, each of those objects can respond to that message (or call) differently.
 
  ```typescript
+  //EXAMPLE
+  
  class person {
   protected name: string;
   private id:number;
@@ -134,6 +137,8 @@ console.log(p2.info2())
     The most common element of encapsulation are classes, where we encapsulate and wrap both methods and properties.
     
  ```typescript
+  //EXAMPLE
+  
  class teacher {
   name: string;
   lastName: string;
@@ -176,6 +181,8 @@ this._salary = _salary;
    Description/template of an object. It consists of a series of methods and data that summarize the characteristics of an object. Defining classes allows you to work with reusable code. Since from a class you can create an instance and thus reuse the code written for it without having to rewrite the code for the instance. The instance takes the pattern of the parent class. However, the variables are independent.
    
  ```typescript
+  //EXAMPLE
+  
    class clothes{ 
   
   article: string;
@@ -211,6 +218,7 @@ this._salary = _salary;
 
 
  ```typescript
+  //EXAMPLE
  
  interface Planet{
 	name: string;
@@ -233,12 +241,13 @@ console.log(planet.name); //Earth
  
  ```
  
-
 7. `Instance`
 
    Any object that derives from another is called an instance. In this way, all objects are instances of some other, except for the Object class, which is the mother of all.
 
  ```typescript
+  //EXAMPLE
+  
  // class 
 
 class clothes{ 
@@ -279,6 +288,8 @@ let clothes3 = new clothes("hoodie", "M", "red")
    An interface is a contract between two entities, this means that an interface provides a service to a consumer class. Therefore, the interface only shows us the declaration of the methods it has, not its implementation, thus allowing its encapsulation.
    
  ```typescript
+  //EXAMPLE
+  
    interface Dessert {
   type:"cake"|"cookies"|"cupcakes";
   taste: "chocolate"|"strawberry"|"cookies and cream";
@@ -307,6 +318,8 @@ let dessert1: Dessert = {
    - private
 
  ```typescript
+  //EXAMPLE
+  
  class studenInfo{
   public name: string;
   protected notes: number;
@@ -315,7 +328,7 @@ let dessert1: Dessert = {
 constructor(name: string, notes: number, parentsInfo: string[]){
   this.name = name;
   this.notes = notes;
-  this.parentsInfo;
+  this.parentsInfo = parentsInfo;
 }
 
 }
@@ -326,6 +339,8 @@ constructor(name: string, notes: number, parentsInfo: string[]){
    It is a set of instructions specially designed to initialize an instance of an object.
    
   ```typescript
+  //EXAMPLE
+  
    constructor(article:string, size: string | number, color:string){
     this.article = article;
     this.size = size;
