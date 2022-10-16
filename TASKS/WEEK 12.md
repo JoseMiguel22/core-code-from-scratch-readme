@@ -74,7 +74,8 @@ A solution for the exercise was to pass the role validation by sending a functio
  
 ![NSA Secrets Box API 2](https://user-images.githubusercontent.com/108826299/196017716-5c96b573-268d-422b-9e95-1a184e3974e1.png)
 
-![postman NSA Secret Box](https://user-images.githubusercontent.com/108826299/196017990-92627524-6920-47de-982a-168870fe2a6e.png)
+![NSA Secret Box](https://user-images.githubusercontent.com/108826299/196018285-079a3d2f-6f38-4ebc-a31d-52bf5d51a222.png)
+
 
 
 ## Week challenges (Thursday) 💻
