@@ -179,25 +179,38 @@ The server is a program that receives a request, performs the required service, 
 
 <details>
 <summary>2. Why is a Client?</summary>
-because the client refers to a plaintiff or applicant for services.
+Because the client refers to a plaintiff or applicant for services.
 </details>
 
 <details>
 <summary>3. Is a server just another physical computer?</summary>
 
+A server can be a physical machine, a virtual machine or even a software performing server services. So the way a server functions depends on how the word server is used in a context.
+
    - Why do we refer to a certain class of applications as Servers?
 
+     Because they are able to attend to the requests of a client and return an answer accordingly.
+
    - What is the difference?
+  
+   All servers have the same purpose of receiving client requests and serving them. The difference between servers varies in the access and exclusivity of clients, such as dedicated servers offer an exclusive rental contract. Each client can enjoy the performance of their server, which is usually housed in a data center, without depending on the consumption of resources from outside clients, while shared servers have as their main characteristic that their use is not exclusive to one client, but by several, hence the name shared, with this type of server the use and performance of the server is shared.
 </details>
 
 <details>
 <summary>4. Is there any similarity between human communication and the client-server model?</summary>
+
+Yes, in our day to day we can see some examples of this type of communication, for example in our work we will always have clients who will make us requests to which we must respond.
 </details>
 
 <details>
 <summary>5. Is the client-server model applicable only to the Web?</summary>
-   - Can you mention any other example of this model outside the Web?
+  
+  Is the client-server model applicable only to the Web?
+Not necessarily, the client-server model can be applied in other places, such as programs running without an internet connection on a single computer, or multiple systems such as a calculator, note apps, a print server. The purpose of this system is to maintain communication.
 
+   - Can you mention any other example of this model outside the Web?
+   
+A simple example would be, like when we go to a restaurant we are the customers, so we make our order that would be the request, this is received and delivered by the waiters who play the role of servers.
 </details>
  
 </details>
