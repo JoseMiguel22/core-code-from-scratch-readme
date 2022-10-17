@@ -348,7 +348,7 @@ app.listen(port, () => {
 
 - [x] 1. Forrest Gump Ping-Pong API 🏓
 
-[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_Ping-Pong)
+[Directory Ping-Pong API 🏓](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_Ping-Pong)
 
 ```javascript
 const express = require('express')
@@ -368,14 +368,13 @@ api.listen(port, () => {
 })
 
 ```
-![PING](https://user-images.githubusercontent.com/108826299/196018980-3539c3e2-f6f0-4d51-872a-0802fc4614ec.png)
-![PONG](https://user-images.githubusercontent.com/108826299/196018985-6a287426-a310-4eb7-877f-e9b42c9ab58e.png)
 
+![API PING-PONG](https://user-images.githubusercontent.com/108826299/196103341-8134b3d7-2bbd-4954-b0ca-21ee4165b3e1.gif)
 
 
 - [x] 2. Delayed Response API ⏳
 
-[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_delayed_response)
+[Directory Delayed Response ⏳](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_delayed_response)
 
 
 ```javascript
@@ -397,4 +396,5 @@ api.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
 ```
-![delay](https://user-images.githubusercontent.com/108826299/196018816-61e5cf35-900c-48f0-9888-6e9f2dda24fc.png)
+![API delay time](https://user-images.githubusercontent.com/108826299/196103285-6b679a67-3f8f-4026-adf6-21d03054d84e.gif)
+
