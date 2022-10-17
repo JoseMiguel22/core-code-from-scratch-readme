@@ -23,9 +23,9 @@
 
 ![NnqqTSjaZ](https://user-images.githubusercontent.com/108826299/196289188-4750dacb-de67-41d5-aff0-6600326b7019.png)
 
-S.O.L.I.D are a series of standards or recommendations that deal with how to program and how to design and write our systems cleanly and concretely.
+**S.O.L.I.D** are a series of standards or recommendations that deal with how to program and how to design and write our systems cleanly and concretely.
 
-The objectives of S.O.L.I.D are several, but the main ones would be to try to make the code more maintainable, that is, to make it very easy to apply changes and fix errors, and also to facilitate the incorporation of new functionalities, making the code more readable and easy to understand.
+The objectives of **S.O.L.I.D** are several, but the main ones would be to try to make the code more maintainable, that is, to make it very easy to apply changes and fix errors, and also to facilitate the incorporation of new functionalities, making the code more readable and easy to understand.
 
 **Definition of each principle:**
 
