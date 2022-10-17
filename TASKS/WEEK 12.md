@@ -16,7 +16,7 @@
 
 - [x] 1. Age Prediction API 👶-👴
 
-[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/API_Age_Prediction)
+[Directory Age Prediction API 👶-👴](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/API_Age_Prediction)
 
 ```javascript
 const express = require('express'),
