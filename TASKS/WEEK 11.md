@@ -205,7 +205,6 @@ Yes, in our day to day we can see some examples of this type of communication, f
 <details>
 <summary>5. Is the client-server model applicable only to the Web?</summary>
   
-  Is the client-server model applicable only to the Web?
 Not necessarily, the client-server model can be applied in other places, such as programs running without an internet connection on a single computer, or multiple systems such as a calculator, note apps, a print server. The purpose of this system is to maintain communication.
 
    - Can you mention any other example of this model outside the Web?
