@@ -151,7 +151,12 @@ Node.js includes three types of modules:
 
 - [x] 3. Node.JS Module System Practice 💻
 
-[soluction](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/migjo-node) 
+[Directory soluction 🚀](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/migjo-node) 
+
+![node 1](https://user-images.githubusercontent.com/108826299/196105331-38671233-5339-4071-a686-9768cdb0de24.png)
+
+![node 2](https://user-images.githubusercontent.com/108826299/196105349-f0519ab7-ad2b-46df-b2a4-c87cc4b76f7d.png)
+
 
 - [ ] 4. Client-Server Model Learning Exercise 🧠
 <details>
