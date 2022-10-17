@@ -726,6 +726,6 @@ console.log(pets.GetData(1)); // returns { name: 'Sparky', breed: 'Jack Russell 
 
 - [x] 2. `Generics` exercise, using `Typescript`
 
-[Solución](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Generics)
+[Solución](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/Generics)
 
 - [x] 3. ✨ 5th Core Challenge, update your resume [here](https://corecode.notion.site/CV-or-Resume-Boost-9092fff9f9cf4944a7c1717b11b09223)
