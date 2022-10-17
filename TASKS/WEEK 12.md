@@ -53,8 +53,9 @@ api.listen(port, () => {
     console.log(`API is running on port: ${port}`)
 })
 ```
+![API Age Prediction](https://user-images.githubusercontent.com/108826299/196102989-48d97876-56ea-4a20-92ae-71783a84e3a4.gif)
 
-![Age Prediction](https://user-images.githubusercontent.com/108826299/196018964-09819da7-a23f-4c64-ae3a-bd5e14aeea6e.png)
+
 
 - [x] 2. NSA Secrets Box API - Hacking Challenge 👨‍💻
  
