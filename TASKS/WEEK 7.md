@@ -8,16 +8,36 @@
 
 
 - [x] 1. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
-- [ ] 2. [Readme - OOP](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/OOP%20glossary.md) glossary
+- [x] 2. [Readme - OOP](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/OOP%20glossary.md) glossary
 
 ## Week challenges (Tuesday) 💻
 
-1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
+- [x] 1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
 
-<!--
+# Input
 
-2. [Movies](./exercises/e03/desc) exercise, using `Typescript`
--->
+![Single Input](https://user-images.githubusercontent.com/108826299/196098394-130def4a-c870-4be3-af19-a5cb28a9f444.gif)
+</details>
+
+# Form
+  
+![Form Input](https://user-images.githubusercontent.com/108826299/196098406-bdac6a38-8969-449d-8f43-8e61bee079c4.gif)
+
+  
+# Select
+  
+![select input](https://user-images.githubusercontent.com/108826299/196098425-50404c15-ae56-4949-8c3f-1c75c910ab70.gif)
+
+
+# Selec by ID
+  
+![select by id input](https://user-images.githubusercontent.com/108826299/196098447-30b79093-2f27-4d1a-9b28-8d670f8687b9.gif)
+
+  
+# Confirn
+  
+![confirn input](https://user-images.githubusercontent.com/108826299/196098468-2d544e9a-0daa-4043-b71a-157f8a171cf2.gif)
+
 
 ## Week challenges (Wednesday) 💻
 
