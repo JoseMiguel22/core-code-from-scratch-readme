@@ -91,7 +91,7 @@ NVM allows users to:
 </details>
 </details>
  
-- [x] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
+- [x] 2. Node.JS Module System Core Understanding Learning Exercise 🧠
 
 <details> 
 <summary>Questions and Answers</summary>
