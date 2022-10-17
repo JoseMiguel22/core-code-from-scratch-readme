@@ -326,7 +326,7 @@ They are not the same, REST refers to a set of rules that when followed allow us
 
 2. Express JS Hello World:
 
-[Directory](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/myapp-express)
+[Directory Hello World 🌍 with express](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/myapp-express)
 ```javascript
 const express = require('express')
 const app = express()
@@ -348,7 +348,7 @@ app.listen(port, () => {
 
 - [x] 1. Forrest Gump Ping-Pong API 🏓
 
-[Directory Ping-Pong API 🏓](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_Ping-Pong)
+[Directory Ping-Pong API 🏓](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/API_Ping-Pong)
 
 ```javascript
 const express = require('express')
@@ -374,7 +374,7 @@ api.listen(port, () => {
 
 - [x] 2. Delayed Response API ⏳
 
-[Directory Delayed Response ⏳](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/API_delayed_response)
+[Directory Delayed Response ⏳](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/API_delayed_response)
 
 
 ```javascript
