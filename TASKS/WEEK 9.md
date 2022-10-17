@@ -6,7 +6,13 @@
 
 ## Week challenges (Monday) 💻
 
-- [ ] 1. [TicTacToe](./exercises/e00/desc) exercise, using `Typescript`
+- [x] 1. [TicTacToe](./exercises/e00/desc) exercise, using `Typescript`
+
+[Directory-TicTacToe⚪❌](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/TicTacToe)
+
+![TicTacToe](https://user-images.githubusercontent.com/108826299/196091168-5a10342a-a3a0-4346-9086-e533858e66fe.gif)
+
+
 
 ## Week challenges (Tuesday) 💻
 
