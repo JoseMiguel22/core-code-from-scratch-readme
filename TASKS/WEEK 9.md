@@ -68,5 +68,5 @@ In TypeScript with static code analysis we notice errors in the editor or when t
 
 ## Week challenges (Thursday) 💻
 
-- [ ] 1. ✨ 6th Core Challenge, complete your [Interview Prep Core Challenge](https://www.notion.so/corecode/Mock-Interviews-a997bd9a907c43e58530ffca517f4cae)
+- [x] 1. ✨ 6th Core Challenge, complete your [Interview Prep Core Challenge](https://www.notion.so/corecode/Mock-Interviews-a997bd9a907c43e58530ffca517f4cae)
 - [x] 2. Time to catch up ⏱️ or do extra work ⭐
