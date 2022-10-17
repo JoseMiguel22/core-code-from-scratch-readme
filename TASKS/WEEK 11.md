@@ -11,7 +11,8 @@
 ## Week Challenges (Tuesday) 🐣
 
 - [x] 1. Node.JS Core Understanding Learning Exercise 🧠
-
+<details> 
+<summary>Questions and Answers</summary>
 <details> 
 <summary>1. What is Node.JS?</summary>
 
@@ -88,9 +89,12 @@ NVM allows users to:
 
 - Set up aliases to switch between different downloaded versions of Node.js with ease.
 </details>
-
+</details>
+ 
 - [x] 2. [Node.JS Module System Core Understanding](./exercises/e00/NODE-MS.md) Learning Exercise 🧠
 
+<details> 
+<summary>Questions and Answers</summary>
 <details>
 <summary>1. What is a Javascript Module?</summary>
 Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc. 
@@ -147,18 +151,27 @@ Node.js includes three types of modules:
 
 </details>
 
+</details>
 
 
 - [x] 3. Node.JS Module System Practice 💻
 
 [Directory soluction 🚀](https://github.com/JoseMiguel22/core-code-from-scratch-readme/tree/main/Directorys/migjo-node) 
 
+<details>
+ <summary>Code</summary>
+ 
 ![node 1](https://user-images.githubusercontent.com/108826299/196105331-38671233-5339-4071-a686-9768cdb0de24.png)
 
 ![node 2](https://user-images.githubusercontent.com/108826299/196105349-f0519ab7-ad2b-46df-b2a4-c87cc4b76f7d.png)
+</details>
 
 
-- [ ] 4. Client-Server Model Learning Exercise 🧠
+ 
+- [x] 4. Client-Server Model Learning Exercise 🧠
+
+<details> 
+<summary>Questions and Answers</summary>
 <details>
 <summary>1. What is a Server?</summary>
 The server is a program that receives a request, performs the required service, and returns the results in the form of a response.
@@ -186,11 +199,16 @@ because the client refers to a plaintiff or applicant for services.
    - Can you mention any other example of this model outside the Web?
 
 </details>
+ 
+</details>
 
 ## Week Challenges (Wednesday) 🐤
 
 - [x] 1. APIs Core Understanding Learning Exercise 🧠
 
+<details> 
+<summary>Questions and Answers</summary>
+ 
 <details>
 <summary>1. What is an API?</summary>
 
@@ -235,8 +253,13 @@ APIs are standards (used as a pattern, model or reference point) for the exchang
 - Amazon - Alexa
 </details>
 
+</details>
+
 - [x] 2. From JSON to REST Learning Exercise 🧠
 
+<details> 
+<summary>Questions and Answers</summary>
+ 
 <details>
 <summary>1. What is HTTP?</summary>
 
@@ -290,8 +313,6 @@ PATCH perform a partial update of a resource
 
 DELETE removes the resource at the specified URI.
 
-HEAD This method is used to obtain information about a given resource without returning the record.
-
    - Why do we use HTTP methods in REST and how do they relate to resources?
 
  Because through the methods we indicate to the server the way in which it should treat a specific request, defining the action that will be carried out on a certain resource.
@@ -304,15 +325,18 @@ HEAD This method is used to obtain information about a given resource without re
 They are not the same, REST refers to a set of rules that when followed allow us to create a distributed application that has a specific set of desirable restrictions, while HTTP is a well-defined protocol used for communication, generally used to communicate with Internet resources or any application with a web browser client.
 
 </details>
+</details>
 
 - [x] 3. REST API Clients Learning Exercise 🧠
 
+<details> 
+ <summary>Questions and Answers</summary>
+ 
 - [x] 1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide
 
 - [x] 2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs
 
-<details>
- <summary>3. Answer the questions:</summary>
+3. Answer:
 
    - Postman only works with REST APIs?
 
@@ -321,6 +345,8 @@ They are not the same, REST refers to a set of rules that when followed allow us
    - Is there an alternative to Postman?
 
    If we have a Swagger UI, Insomnia REST Client, Paw, Apigee and cURL are the most popular alternatives to Postman.
+
+ 
 </details>
 
 - [x] 4. Express.JS Core Understanding Learning Exercise 🧠
