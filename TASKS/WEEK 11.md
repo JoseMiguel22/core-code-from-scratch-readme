@@ -439,5 +439,5 @@ api.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
 ```
-![API delay time](https://user-images.githubusercontent.com/108826299/196103285-6b679a67-3f8f-4026-adf6-21d03054d84e.gif)
 
+![API delay time 1](https://user-images.githubusercontent.com/108826299/196299741-3d8bc7b3-aa53-4288-a621-10f2b2d95f0a.gif)
