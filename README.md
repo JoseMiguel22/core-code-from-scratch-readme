@@ -24,6 +24,6 @@
 |- Week 10 : [End Of Month & React](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2010.md)|![physics](https://user-images.githubusercontent.com/108826299/182278215-97413057-a1c3-413d-8ab1-9e61a2286e39.png)|
 |- Week 11 : [Node](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2011.md)|![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)|
 |- Week 12 : [Node / Database](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2012.md)|![nodo-js](https://user-images.githubusercontent.com/108826299/182277541-8cef8c11-e4d5-4ebc-b7b7-5fc16914ad60.png)|
-|- Week 13 : [Pause Day & S.O.L.I.D](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2013.md)||
-|- Week 14 : [End Of Month](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2014.md)||
+|- Week 13 : [Pause Day & S.O.L.I.D](https://github.com/JoseMiguel22/core-code-from-scratch-readme/blob/main/TASKS/WEEK%2013.md)|![Screenshot - 2022-10-25T013911 275 (1)](https://user-images.githubusercontent.com/108826299/197691621-ddf70d45-3669-4976-9af4-6725ce3c2c60.png)|
+|- Week 14 : [Project](https://github.com/JoseMiguel22/c-tesseract-backend/tree/master)|![core code](https://user-images.githubusercontent.com/108826299/197691338-ef420301-2329-48ad-9d13-1af94f786f74.png)|
 
